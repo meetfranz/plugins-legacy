@@ -1,0 +1,23 @@
+{
+  "name": "messenger-demo",
+  "version": "1.0.0",
+  "description": "Franz Messener Demo",
+  "main": "index.js",
+  "author": "Stefan Malzner <stefan@meetfranz.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://messenger.com",
+    "serviceName": "Messenger Demo",
+    "message": "This is a random info text that is shown when adding/editing a service",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": true
+  }
+}
