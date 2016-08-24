@@ -3,9 +3,9 @@
 Provides a set of helper functions to integrate the service into [Franz](http://meetfranz.com).
 
 ## Franz Class Methods
-* [setBadge](#setbadge)
-* [injectCSS](#injectcss)
-* [loop](#loop)
+* [setBadge](#user-content-setbadge)
+* [injectCSS](#user-content-injectcss)
+* [loop](#user-content-loop)
 
 ### setBadge(directMessages, [indirectMessages])
 Sets the unread message badge

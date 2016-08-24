@@ -3,13 +3,13 @@
 A Franz plugin is basically nothing else than a node module and is currently initialized on `dom-ready`. You can use and install any node module as a dependecny and access all of the [electron](http://electron.atom.io) modules as well.
 
 ## Table of Contents
-* [Installation](#plugin-directory)
-* [Plugin structure](#plugin-structure)
-* [Configuration (package.json)](#package-json)
-* [Backend (index.js)](#index-js)
-* [Frontend (webview.js)](#webview-js)
-* [Icons](#icons)
-* [Roadmap](#roadmap)
+* [Installation](#user-content-installation)
+* [Plugin structure](#user-content-plugin-structure)
+* [Configuration (package.json)](#user-content-packagejson)
+* [Backend (index.js)](#user-content-indexjs)
+* [Frontend (webview.js)](#user-content-webviewjs)
+* [Icons](#user-content-icons)
+* [Roadmap](#user-content-roadmap)
 
 ## Installation
 1. To install a new integration, download the integration folder e.g `oratio`.
@@ -31,7 +31,7 @@ Every plugin needs a specific file structure in order to be detected as a Franz 
   * package.json
   * webview.js
 
-#### package.json
+### package.json
 The package.json is structured like any other node module and allows to completely configure the service.
 
 ```json
@@ -63,7 +63,7 @@ The package.json is structured like any other node module and allows to complete
 To get more information about all the provided configuration flags, check the [config docs](configuration.md).
 
 
-#### index.js
+### index.js
 This is your "backend" code. Right now the options are very limited and most of the services don't need a custom handling here. If your service is relatively straight forward and has a static URL eg. _messenger.com_, _`[TEAMID]`.slack.com_ or _web.skype.com_ all you need to do to return the Franz Class:
 
 ```js
@@ -96,7 +96,7 @@ module.exports = (Franz) => {
 
 `validateServer` needs to return a [`Promise`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise), otherwise validation will fail.
 
-#### webview.js
+### webview.js
 The webview.js is the actual script that will be loaded into the webview. Here you can do whatever you want to do in order perfectly integrate the service into Franz. For convenience, we have provided a very simple set of functions to set unread message badges (`Franz.setBadge()`) and inject CSS files (`Franz.injectCSS()`).
 
 
@@ -120,7 +120,7 @@ module.exports = (Franz, options) => {
 
 To get more information about the provided functions, check the [API docs](frontend_api.md).
 
-#### Icons
+### Icons
 In order to show every service icon crystal clear within the Franz UI, we require a .svg and .png in 1024x1024px.
 
 ## Roadmap

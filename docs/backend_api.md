@@ -3,7 +3,7 @@
 Provides a set of helper functions to integrate the service into [Franz](http://meetfranz.com).
 
 ## Franz Backend Class Methods
-* [validateServer](#validateserver)
+* [validateServer](#user-content-validateserver)
 
 ### validateServer(URL)
 Validate if the given URL is a valid service instance.  

@@ -1,6 +1,10 @@
 # Integration Config
 
-A [Franz](http://meetfranz.com) integration plugin is a node module. In order to learn more about node modules and their configuration check the official [Node.js documentation](https://nodejs.org/api/modules.html) / [npm package.json documentation](https://docs.npmjs.com/files/package.json) .
+A [Franz](http://meetfranz.com) integration plugin is a node module. In order to learn more about node modules and their configuration check the official [Node.js documentation](https://nodejs.org/api/modules.html) / [npm package.json documentation](https://docs.npmjs.com/files/package.json).
+
+## Table of Contents
+* [Config flags](#user-content-config-flags)
+* [Examples](#user-content-examples)
 
 ## Config flags
 
@@ -8,7 +12,7 @@ A [Franz](http://meetfranz.com) integration plugin is a node module. In order to
 Unique identifier name of the plugin. The name of the plugin folder should also be this name.
 
 `string` **version**<br />
-Version ID. Will be used for auto updating the integrations.
+Version number. Will be used for auto updating the integrations. The version number must be in the following format: `1.0.0`.
 
 `string` **desciption**<br />
 Short description about your integration. Will be displayed in a future release.
