@@ -25,6 +25,8 @@ Franz.setBadge(4, 2);
 ### injectCSS(cssFile)
 Injects the contents of one or more CSS files into the current webview
 
+Franz currently uses the webviews API to inject the CSS file. This makes it necessary to add the `!important` flag to the CSS attributes you like to override.
+
 #### Arguments
 1. `string` cssFile
   * CSS files that should be injected. This must be an absolute path to the file
