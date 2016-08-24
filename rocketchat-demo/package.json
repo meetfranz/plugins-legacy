@@ -1,0 +1,22 @@
+{
+  "name": "rocketchat-demo",
+  "version": "1.0.0",
+  "description": "Franz RocketChat Demo",
+  "main": "index.js",
+  "author": "Stefan Malzner <stefan@meetfranz.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://franz-mattermost.herokuapp.com",
+    "serviceName": "RocketChat Demo",
+    "message": "This is a random info text that is shown when adding/editing a service",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
