@@ -4,25 +4,27 @@
     <title>oratio</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="13.1147541 53.7704918 13.1147541 5.0809286e-15 80 0 80 42.8659694 24.355252 42.8659694"></polygon>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="66.8852459" height="53.7704918" fill="white">
+        <polygon id="path-1" points="15.7377049 64.2622951 15.7377049 0 80 0 80 53.9680584 26.537399 53.9680584"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="64.2622951" height="64.2622951" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
-        <polygon id="path-3" points="6.55737705 59.0163934 6.55737705 5.24590164 73.442623 5.24590164 73.442623 48.1118711 17.797875 48.1118711"></polygon>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="66.8852459" height="53.7704918" fill="white">
+        <polygon id="path-3" points="7.86885246 72.1311475 7.86885246 9.18032787 70.8196721 9.18032787 70.8196721 61.8305885 18.6685466 61.8305885"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="62.9508197" height="62.9508197" fill="white">
             <use xlink:href="#path-3"></use>
         </mask>
-        <polygon id="path-5" points="0 65.5737705 2.86791272e-15 11.8032787 66.8852459 11.8032787 66.8852459 54.6692481 11.2404979 54.6692481"></polygon>
-        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="66.8852459" height="53.7704918" fill="white">
+        <polygon id="path-5" points="0 80 2.4000694e-15 18.3606557 61.6393443 18.3606557 61.6393443 69.6928413 10.7996941 69.6928413"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="61.6393443" height="61.6393443" fill="white">
             <use xlink:href="#path-5"></use>
         </mask>
     </defs>
     <g id="icons-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="oratio" stroke-width="2">
-            <g id="Group" transform="translate(0.000000, 10.000000)">
-                <use id="Path-Copy-2" stroke="#E5543F" mask="url(#mask-2)" fill="#E5543F" xlink:href="#path-1"></use>
-                <use id="Path-Copy" stroke="#6FB4E3" mask="url(#mask-4)" fill="#6FB4E3" xlink:href="#path-3"></use>
-                <use id="Path" stroke="#3B3C3C" mask="url(#mask-6)" fill="#3B3C3C" xlink:href="#path-5"></use>
+        <g id="oratio" stroke-width="6" fill="#FFFFFF">
+            <g id="Group-2">
+                <g id="Group">
+                    <use id="Path-Copy-2" stroke="#E5543F" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    <use id="Path-Copy" stroke="#6FB4E3" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                    <use id="Path" stroke="#3B3C3C" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                </g>
             </g>
         </g>
     </g>
