@@ -1,0 +1,23 @@
+{
+  "name": "oratio",
+  "version": "1.0.0",
+  "description": "oratio – Messengers for Business",
+  "main": "index.js",
+  "author": "David Pichsenmeister <david@orat.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://orat.io",
+    "serviceName": "oratio",
+    "message": "We enable businesses to offer customer service through mobile messengers.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
