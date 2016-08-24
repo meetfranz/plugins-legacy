@@ -1,0 +1,23 @@
+{
+  "name": "slack-demo",
+  "version": "1.0.0",
+  "description": "Franz Slack Demo",
+  "main": "index.js",
+  "author": "Stefan Malzner <stefan@meetfranz.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://{teamID}.slack.com",
+    "serviceName": "Slack Demo",
+    "popup": [],
+    "hasTeamID": true,
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "wording": {
+        "url": "slack.com",
+        "team": "Slack"
+    },
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
