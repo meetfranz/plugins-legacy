@@ -1,14 +1,14 @@
 module.exports = (Franz, options) => {
   function getMessages() {
-    let count = 0;
-    let stati = document.querySelectorAll('.tabs .status');
-    [].forEach.call(stati, function(item) {
-      let el = item.querySelectorAll('span');
-      if (el && el.length) count += parseInt(el[0].innerHTML.replace('(', '').replace(')', ''));
-    });
+    const count = {};
+    const FranzData = document.querySelector('#FranzMessages').dataset;
+    if (FranzData) {
+      count.count = FranzData.direct;
+      count.count_indirect = FranzData.indirect;
+    }
 
     Franz.setBadge(count);
   }
 
-  setInterval(getMessages, 1000);
+  Franz.loop(getMessages);
 }
