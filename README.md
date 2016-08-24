@@ -14,6 +14,9 @@ The minimum requirement to run a custom Franz integration is Franz v. 4.0.0. To 
 3. Copy the `oratio` folder into the plugins directory
 4. Restart Franz
 
+## Participate
+In case you like to improve existing services or even create your own custom integrations then feel free to just create a pull request.
+
 ## Learn more
 * Read the [documentation](docs/integration.md) to create your own service integration.
 * Get more information about [Franz](http://meetfranz.com).
