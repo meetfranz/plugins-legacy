@@ -6,7 +6,7 @@
   "author": "David Pichsenmeister <david@orat.io>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://orat.io",
+    "serviceURL": "https://orat.io/auth/login",
     "serviceName": "oratio",
     "message": "We enable businesses to offer customer service through mobile messengers.",
     "popup": [],
