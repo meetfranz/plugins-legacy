@@ -66,8 +66,6 @@ Array with regular expressions to open external links in a popup instead of a ne
 Is this a team based service? If true, the interface to add the service will require a team identifier. e.g. `[teamID]`.slack.com
 * `boolean` **hasNotificationSound**<br />
 Some services provide their own notification sound. In order to avoid multiple sounds when the user receives a message set this to `true`. If the service has no built in notification sound set this to `false`.
-* `boolean` **hasNotificationSound**<br />
-Some services provide their own notification sound. In order to avoid multiple sounds when the user receives a message set this to `true`. If the service has no built in notification sound set this to `false`.
 * `boolean` **hasIndirectMessages**<br />
 Services like Slack or HipChat have direct messages e.g. a mention or message to every user in a channel (@channel) and indirect messages e.g. general discussion in a channel. If this flag is set to `true`, the user can enable/disable if there should be a badge for indirect messages.
 * `string` **message**<br />
