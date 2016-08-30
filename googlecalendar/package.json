@@ -1,0 +1,23 @@
+{
+  "name": "googlecalendar",
+  "version": "1.0.0",
+  "description": "With Google's free online calendar, it's easy to keep track of life's important events all in one place.",
+  "main": "index.js",
+  "author": "ffflorian <hello@floriankeller.de>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://calendar.google.com/",
+    "serviceName": "Google Calendar",
+    "message": "With Google's free online calendar, it's easy to keep track of life's important events all in one place.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
