@@ -11,7 +11,7 @@
     "message": "The self-hosted web IRC client",
     "popup": [],
     "hasNotificationSound": true,
-    "hasIndirectMessages": false,
+    "hasIndirectMessages": true,
     "hasTeamID": false,
     "customURL": true,
     "hostedOnly": true,
