@@ -6,7 +6,7 @@
   "author": "Retzudo",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://www.teamwork.com/",
+    "serviceURL": "https://{teamID}.teamwork.com/",
     "serviceName": "Teamwork",
     "popup": [],
     "hasNotificationSound": true,
@@ -15,6 +15,10 @@
     "customURL": false,
     "hostedOnly": false,
     "webviewOptions": {},
-    "openDevTools": false
+    "openDevTools": false,
+    "wording": {
+        "url": "teamwork.com",
+        "team": "Teamwork"
+    }
   }
 }
