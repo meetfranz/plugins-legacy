@@ -12,8 +12,7 @@ The minimum requirement to run this plugin is Franz v4.0.0. To get the latest ve
   * Linux: `~/.config/Franz/Plugins`
   * _Alternatively: Go to your Franz settings page, scroll down to the bottom and you will see an option to "Open the Franz plugin directory"_
 3. Copy the `rainloop` folder into the plugins directory
-4. Edit the file `rainloop/package.json` and insert your custom server URL.
-5. Restart Franz
+4. Restart Franz
 
 ## Setup
 1. Click on the menu button in the top right corner
