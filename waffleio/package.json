@@ -1,0 +1,23 @@
+{
+  "name": "waffleio",
+  "version": "1.0.0",
+  "description": "waffle.io",
+  "main": "index.js",
+  "author": "Brian Retterer <bretterer@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://waffle.io/{teamID}",
+    "serviceName": "Waffle.io",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
