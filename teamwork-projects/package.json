@@ -1,13 +1,13 @@
 {
-  "name": "Teamwork",
+  "name": "Teamwork Projects",
   "version": "0.1.0",
-  "description": "Teamwork",
+  "description": "Project management SaaS",
   "main": "index.js",
   "author": "Retzudo",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamID}.teamwork.com/",
-    "serviceName": "Teamwork",
+    "serviceName": "Teamwork Projects",
     "popup": [],
     "hasNotificationSound": true,
     "hasedirectMessages": false,
@@ -18,7 +18,7 @@
     "openDevTools": false,
     "wording": {
         "url": "teamwork.com",
-        "team": "Teamwork"
+        "team": "Teamwork Projects"
     }
   }
 }
