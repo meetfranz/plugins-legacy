@@ -11,7 +11,7 @@
     "popup": [],
     "hasNotificationSound": true,
     "hasedirectMessages": false,
-    "hasTeamID": false,
+    "hasTeamID": true,
     "customURL": false,
     "hostedOnly": false,
     "webviewOptions": {},
