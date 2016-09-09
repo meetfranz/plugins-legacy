@@ -1,7 +1,7 @@
 {
-  "name": "custom_outlook",
+  "name": "customoutlook",
   "version": "1.0.0",
-  "description": "Custom Outlook Address",
+  "description": "Custom Outlook.com Address",
   "main": "index.js",
   "author": "Alessandro Roncone <alecive87@gmail.com>",
   "license": "MIT",
