@@ -1,0 +1,22 @@
+{
+  "name": "custom_outlook",
+  "version": "1.0.0",
+  "description": "Custom Outlook Address",
+  "main": "index.js",
+  "author": "Alessandro Roncone <alecive87@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://outlook.com/{teamID}",
+    "serviceName": "Custom Outlook.com",
+    "message": "This is used when using a custom address for Outlook, e.g. your company's address. To make an example, this is what you need to input in order to access yale.edu servers: https://outlook.office.com/owa/?realm=yale.edu",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
