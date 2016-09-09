@@ -1,6 +1,6 @@
 # Franz Integration Documentation / Overview
 
-A Franz plugin is basically nothing else than a node module and is currently initialized on `dom-ready`. You can use and install any node module as a dependecny and access all of the [electron](http://electron.atom.io) modules as well.
+A Franz plugin is basically nothing else than a node module and is currently initialized on `dom-ready`. You can use and install any node module as a dependency and access all of the [electron](http://electron.atom.io) modules as well.
 
 ## Table of Contents
 * [Installation](#user-content-installation)
