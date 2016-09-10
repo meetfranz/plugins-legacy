@@ -1,0 +1,26 @@
+{
+  "name": "twitch",
+  "version": "1.0.0",
+  "description": "Twitch chat",
+  "main": "index.js",
+  "author": "RedbackThomson <redbackthomson@hotmail.com> (http://rdbk.tv/)",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.twitch.tv/{teamID}/chat",
+    "serviceName": "Twitch",
+    "message": "Twitch chat allows you to not only interact with fellow members of the Twitch Community, but Broadcasters as well",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "wording": {
+      "url": "twitch.tv",
+      "team": "Channel"
+    },
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
