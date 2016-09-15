@@ -1,0 +1,7 @@
+#wrapper {
+	max-width: 100% !important;
+}
+
+#wrapper .wrapper-inside {
+	max-width: 100% !important;
+}

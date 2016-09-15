@@ -1,0 +1,23 @@
+{
+	"name": "zalo",
+	"version": "1.0.0",
+	"description": "Franz Zalo Plugin",
+	"main": "index.js",
+	"author": "Cloudyfa (Huy Pham)",
+	"license": "MIT",
+	"config": {
+		"serviceURL": "http://web.zaloapp.com/login",
+		"serviceName": "Zalo",
+		"message": "The new market-leading messaging app with amazing features.",
+		"popup": [],
+		"hasNotificationSound": true,
+		"hasIndirectMessages": false,
+		"hasTeamID": false,
+		"customURL": false,
+		"hostedOnly": false,
+		"webviewOptions": {
+			"disablewebsecurity": ""
+		},
+		"openDevTools": false
+	}
+}
