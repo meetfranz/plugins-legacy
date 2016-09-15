@@ -1,0 +1,22 @@
+{
+  "name": "glip",
+  "version": "1.0.0",
+  "description": "Glip integration",
+  "main": "index.js",
+  "author": "Andrea Lazzarotto <andrea.lazzarotto@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://glip.com/",
+    "serviceName": "Glip",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
