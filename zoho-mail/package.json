@@ -1,0 +1,23 @@
+{
+  "name": "Zoho Mail",
+  "version": "1.0.0",
+  "description": "Zoho Mail – Hosted Email for Businesses",
+  "main": "index.js",
+  "author": "Milan Zitka <milan@littlewall.cz>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.zoho.com/mail/login.html",
+    "serviceName": "Zoho Mail",
+    "message": "Hosted Email for Businesses.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
