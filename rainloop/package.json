@@ -1,0 +1,27 @@
+{
+    "name": "rainloop",
+    "version": "1.0.1",
+    "description": "RainLoop Webmail – Simple, modern & fast web-based email client",
+    "main": "index.js",
+    "author": "ffflorian <hallo@floriankeller.de>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "",
+        "serviceName": "Rainloop",
+        "message": "Modest system requirements, decent performance, simple installation and upgrade, no database required – all these make RainLoop Webmail a perfect choice for your email solution.",
+        "popup": [],
+        "hasNotificationSound": false,
+        "hasIndirectMessages": true,
+        "hasTeamID": true,
+        "customURL": true,
+        "hostedOnly": true,
+        "wording": {
+            "team": "Rainloop",
+            "url": ""
+        },
+        "webviewOptions": {
+            "disablewebsecurity": ""
+        },
+        "openDevTools": false
+    }
+}
