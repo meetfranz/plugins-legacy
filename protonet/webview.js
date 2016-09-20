@@ -1,8 +1,9 @@
 module.exports = (Franz, options) => {
   const getMessages = () => {
-    const unreadMail = $(".badge.unread-meeps").first().html();
+    const unreadPrivateMessages = parseInt($(".messages .unread-meeps").text());
+    const unreadGroupMessages = parseInt($(".today .unread-meeps").text());
 
-    Franz.setBadge(unreadMail);
+    Franz.setBadge(unreadPrivateMessages + unreadGroupMessages);
   }
 
   Franz.loop(getMessages);
