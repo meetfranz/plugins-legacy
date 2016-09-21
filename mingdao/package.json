@@ -1,0 +1,23 @@
+{
+  "name": "mingdao",
+  "version": "0.1.0",
+  "description": "mingdao",
+  "main": "index.js",
+  "author": "Sin <dev@zouxin.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.mingdao.com/login.htm",
+    "serviceName": "Mingdao",
+    "message": "自由连接一切协作者",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
