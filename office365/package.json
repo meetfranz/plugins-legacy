@@ -1,0 +1,23 @@
+{
+  "name": "office365",
+  "version": "0.0.1",
+  "description": "Office 365",
+  "main": "index.js",
+  "author": "Brandon Andrews <doingwhatsoundsright@outlook.com",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://outlook.office.com/owa/",
+    "serviceName": "Office 365",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
