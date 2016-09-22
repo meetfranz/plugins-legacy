@@ -9,7 +9,7 @@ module.exports = (Franz, options) => {
     // set Franz badge
     // updates => active unread count
     // inbox => passive unread count
-    Franz.setBadge("0", inbox);
+    Franz.setBadge(inbox);
   };
 
   // inject franz.css stylesheet
