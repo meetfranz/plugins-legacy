@@ -1,0 +1,23 @@
+{
+  "name": "evernote",
+  "version": "1.0.0",
+  "description": "Evernote",
+  "main": "index.js",
+  "author": "Grzegorz Bartman <grzegorz.bartman@openbit.pl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.evernote.com/Home.action",
+    "serviceName": "Evernote",
+    "message": "Evernote",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
