@@ -1,0 +1,23 @@
+{
+  "name": "rememberthemilk",
+  "version": "1.0.0",
+  "description": "Remember The Milk",
+  "main": "index.js",
+  "author": "Grzegorz Bartman <grzegorz.bartman@openbit.pl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.rememberthemilk.com/app/",
+    "serviceName": "Remember The Milk",
+    "message": "Remember The Milk",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
