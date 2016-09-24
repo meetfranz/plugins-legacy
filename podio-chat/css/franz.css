@@ -1,0 +1,12 @@
+#header-global {   
+   display: none !important;
+}
+
+.content-container
+{
+	padding-top: 0px !important;
+}
+
+.settings-trigger {
+    display: none !important;
+}
