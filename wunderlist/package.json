@@ -1,7 +1,7 @@
 {
   "name": "wunderlist",
   "version": "1.0.0",
-  "description": "trello",
+  "description": "Wunderlist",
   "main": "index.js",
   "author": "Laszlo Racz <hdkiller@gmail.com>",
   "license": "MIT",
