@@ -1,0 +1,23 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "trello",
+  "main": "index.js",
+  "author": "Brian Retterer <bretterer@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://trello.com/login",
+    "serviceName": "Trello",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
