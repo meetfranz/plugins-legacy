@@ -7,5 +7,6 @@ module.exports = (Franz, options) => {
     Franz.setBadge(count);
   }
 
+  Franz.injectCSS(path.join(__dirname, 'css', 'franz.css'));
   Franz.loop(getMessages);
 };
