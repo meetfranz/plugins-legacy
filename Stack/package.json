@@ -1,0 +1,23 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "stack",
+  "main": "index.js",
+  "author": "Jasper van Veenhuizen <jasper@vanveenhuizen.nl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.stackstorage.com",
+    "serviceName": "Stack",
+    "message": "format [TEAM].stackstorage.com",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
