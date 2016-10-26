@@ -10,10 +10,10 @@
     "serviceName": "Nomad List",
     "message": "",
     "popup": [],
-    "hasNotificationSound": false,
+    "hasNotificationSound": true,
     "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
+    "hasTeamID": true,
+    "customURL": true,
     "hostedOnly": false,
     "webviewOptions": {
       "disablewebsecurity": ""
