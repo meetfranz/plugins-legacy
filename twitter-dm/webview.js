@@ -4,7 +4,7 @@ module.exports = (Franz, options) => {
   const getMessages = () => {
     // get unread messages
     // const updates = document.getElementById('franz').getAttribute('data-unread');
-    const count = $('a[href="/notifications"] span').text();
+    const count = $('a[href="/messages"] span').text();
     Franz.setBadge(count);
 
     // get conversations in 'My Inbox'
