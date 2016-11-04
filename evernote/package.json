@@ -1,0 +1,23 @@
+{
+  "name": "Evernote",
+  "version": "1.0.0",
+  "description": "Evernote",
+  "main": "index.js",
+  "author": "Yitch <mr.yitch@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.evernote.com/Login.action",
+    "serviceName": "Evernote",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
