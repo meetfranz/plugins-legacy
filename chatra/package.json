@@ -8,7 +8,7 @@
   "config": {
     "serviceURL": "https://app.chatra.io/",
     "serviceName": "Chatra",
-    "message": "Live chat software that helps to increase revenue and collect feedback providing an easy way for website owners to talk to visitors in real time.",
+    "message": "",
     "popup": [],
     "hasTeamID": false,
     "hasNotificationSound": true,

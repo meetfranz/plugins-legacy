@@ -2,15 +2,15 @@ const path = require('path');
 
 module.exports = (Franz, options) => {
   const getMessages = () => {
-    // get unread messages
-    const myQueue = $('.super-nav a.super-nav__item.js-from-super-to-nav[href^="/chat/box:my"] .count').text();
+    // get new conversations in My Queue
+    const myQueue = $('.super-nav a.super-nav__item.js-from-super-to-nav[href^="/chat/box:my"] .count').not('.count--gray').text();
 
-    // get conversations in 'My Inbox'
+    // get all missed conversations
     const missed = $('.super-nav a.super-nav__item.js-from-super-to-nav[href^="/chat/box:missed"] .count').text();
 
     // set Franz badge
-    // myQueue => My Queue count
-    // missed => Missed count
+    // myQueue => New conversations in My Queue
+    // missed => All missed conversations
     Franz.setBadge(myQueue, missed);
   };
 
