@@ -1,0 +1,23 @@
+{
+  "name": "anydo",
+  "version": "1.0.0",
+  "description": "anydo ToDoList in Franz",
+  "main": "index.js",
+  "author": "Lukas Bachschwell <lukas@lbsfilm.at>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.any.do/",
+    "serviceName": "Anydo",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
