@@ -1,0 +1,23 @@
+{
+  "name": "fullcontact",
+  "version": "1.0.0",
+  "description": "Add context to your relationships with FullContact’s smart, cloud-based address book with Franz.",
+  "main": "index.js",
+  "author": "Patrick Rathke",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.fullcontact.com/",
+    "serviceName": "FullContact",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
