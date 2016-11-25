@@ -1,0 +1,23 @@
+{
+  "name": "Zoho Mail",
+  "version": "1.0.0",
+  "description": "Outlook from Office365",
+  "main": "index.js",
+  "author": "Chris Gray <chris.gray@amido.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://outlook.office365.com",
+    "serviceName": "Outlook from Office365",
+    "message": "Email from Office365",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
