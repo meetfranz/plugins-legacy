@@ -1,0 +1,23 @@
+{
+  "name": "vector.im",
+  "version": "1.0.1",
+  "description": "Riot (matrix/vector.im)",
+  "main": "index.js",
+  "author": "Matthew Frost <m.frost@mattronix.nl",
+  "license": "GPL",
+  "config": {
+    "serviceURL": "https://vector.im/beta/",
+    "serviceName": "(Riot matrix/vector.im)",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
