@@ -1,0 +1,23 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Online project hosting using Git. Includes source-code browser, in-line editing, wikis, and ticketing. Free for public open-source code.",
+  "main": "index.js",
+  "author": "susw12 <adscarrom@outlook.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://github.com/",
+    "serviceName": "GitHub",
+    "message": "Online project hosting using Git. Includes source-code browser, in-line editing, wikis, and ticketing. Free for public open-source code.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
