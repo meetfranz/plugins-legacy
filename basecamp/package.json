@@ -1,0 +1,23 @@
+{
+  "name": "meetfranz-basecamp-plugin",
+  "version": "1.0.0",
+  "description": "Basecamp plugin for meetfranz.",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://launchpad.37signals.com/",
+    "serviceName": "Basecamp",
+    "message": "Basecamp plugin for meetfranz.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
