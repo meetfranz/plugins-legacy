@@ -1,0 +1,23 @@
+{
+  "name": "glowing-bear",
+  "version": "1.0.0",
+  "description": "A client for WeeChat",
+  "main": "index.js",
+  "author": "Matej Cotman <cotman.matej@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.glowing-bear.org/",
+    "serviceName": "Glowing-Bear",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
