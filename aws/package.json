@@ -1,0 +1,24 @@
+{
+  "name": "Amazon AWS",
+  "version": "0.0.1",
+  "description": "Amazon Web Services",
+  "main": "index.js",
+  "author": "Abdoul Ndiaye",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.signin.aws.amazon.com/console",
+    "serviceName": "Amazon Web Services",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasedirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "aws.amazon.com",
+        "team": "Amazon Web Services"
+    }
+  }
+}
