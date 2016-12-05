@@ -1,0 +1,23 @@
+{
+  "name": "jollor",
+  "version": "1.0.0",
+  "description": "Jollor - Manage your social media with ease",
+  "main": "index.js",
+  "author": "Jan Zaloudek <mail@janzaloudek.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://jollor.com",
+    "serviceName": "Jollor",
+    "message": "Jollor - Manage your social media with ease",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
