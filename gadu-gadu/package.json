@@ -1,0 +1,23 @@
+{
+  "name": "gadu-gadu",
+  "version": "1.0.0",
+  "description": "Gadu-Gadu the most popular polish communicator of the 00's",
+  "main": "index.js",
+  "author": "Michał Kubrycz <michal.kubrycz@outlook.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://www.gg.pl/#",
+    "serviceName": "GG",
+    "message": "GG - Polski. Najlepszy. Komunikator.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
