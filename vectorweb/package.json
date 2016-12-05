@@ -1,0 +1,22 @@
+{
+  "name": "vectorweb",
+  "version": "1.0.0",
+  "description": "Vector Webchat for Matrix",
+  "main": "index.js",
+  "author": "Tilman Vatteroth <tilman.vatteroth@udo.edu>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Vector Web",
+    "message": "Vector Web for Matrix",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}

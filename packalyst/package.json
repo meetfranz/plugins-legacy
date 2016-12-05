@@ -1,0 +1,23 @@
+{
+  "name": "packalyst",
+  "version": "1.0.0",
+  "description": "Packalyst is a directory of Packages for your Laravel projects",
+  "main": "index.js",
+  "author": "Kim Hsiao <white.shopping@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://packalyst.com/login",
+    "serviceName": "Packalyst",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

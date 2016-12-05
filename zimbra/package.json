@@ -1,0 +1,23 @@
+{
+  "name": "zimbra",
+  "version": "1.0.0",
+  "description": "Franz Zimbra Plugin",
+  "main": "index.js",
+  "author": "Maks Buriy <byymster@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Zimbra",
+    "message": "Enter Address of zimbra server. EG. https://zimbra.companyname.com/",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

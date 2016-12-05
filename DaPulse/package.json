@@ -1,0 +1,23 @@
+{
+  "name": "dapulse",
+  "version": "1.0.0",
+  "description": "dapulse",
+  "main": "index.js",
+  "author": "Jasper van Veenhuizen <jasper@vanveenhuizen.nl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.dapulse.com/users/sign_in",
+    "serviceName": "DaPulse",
+    "message": "Format: [TEAM].dapulse.com",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

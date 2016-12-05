@@ -1,0 +1,29 @@
+{
+  "name": "easyredmine",
+  "version": "1.0.0",
+  "description": "easyredmine",
+  "main": "index.js",
+  "author": "Carlos Clavero <cclavero@kyos.es>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.easyredmine.com",
+    "serviceName": "EasyRedmine",
+	"popup": [
+      "^https:\/\/([a-zA-Z0-9\\-]*).easyredmine.com"
+    ],
+	"wording": {
+        "url": "easyredmine.com",
+        "team": "easyredmine"
+    },
+    "message": "",
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

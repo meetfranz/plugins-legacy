@@ -1,0 +1,23 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "github",
+  "main": "index.js",
+  "author": "Kim Hsiao <white.shopping@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://github.com/login",
+    "serviceName": "Github",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
