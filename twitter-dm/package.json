@@ -1,0 +1,23 @@
+{
+  "name": "twitter-dm",
+  "version": "1.0.0",
+  "description": "Twitter's Messages inbox",
+  "main": "index.js",
+  "author": "Pieter Levels <hi@levels.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://mobile.twitter.com/messages",
+    "serviceName": "Twitter DM",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "nomad-list",
+  "version": "1.0.2",
+  "description": "Join 10,000+ people in the community for digital nomads and remote workers",
+  "main": "index.js",
+  "author": "Nomad List <hello@nomadlist.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://nomadlist.com/chat",
+    "serviceName": "Nomad List",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
