@@ -14,7 +14,7 @@ Unique identifier name of the plugin. The name of the plugin folder should also 
 `string` **version**<br />
 Version number. Will be used for auto updating the integrations. The version number must be in the following format: `1.0.0`.
 
-`string` **desciption**<br />
+`string` **description**<br />
 Short description about your integration. Will be displayed in a future release.
 
 `string` **main**<br />
