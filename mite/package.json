@@ -1,0 +1,22 @@
+{
+  "name": "mite",
+  "version": "1.0.0",
+  "description": "mite. integration for Franz",
+  "main": "index.js",
+  "author": "Andreas Nedbal <andy@pixelde.su>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.mite.yo.lk",
+    "serviceName": "Mite",
+    "message": "This plugin adds your teams mite timetracking to Franz",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
