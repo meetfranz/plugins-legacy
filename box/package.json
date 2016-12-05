@@ -1,0 +1,23 @@
+{
+  "name": "Box-SSO",
+  "version": "1.0.0",
+  "description": "Box-SSO",
+  "main": "index.js",
+  "author": "Yitch <mr.yitch@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://account.box.com/login/sso",
+    "serviceName": "Box-SSO",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
