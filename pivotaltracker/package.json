@@ -1,0 +1,23 @@
+{
+  "name": "pivotal",
+  "version": "1.0.0",
+  "description": "Pivotal Tracker",
+  "main": "index.js",
+  "author": "Laszlo Racz <hdkiller@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.pivotaltracker.com/signin",
+    "serviceName": "Pivotal Tracker",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

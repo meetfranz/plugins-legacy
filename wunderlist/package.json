@@ -1,0 +1,23 @@
+{
+  "name": "wunderlist",
+  "version": "1.0.0",
+  "description": "Wunderlist",
+  "main": "index.js",
+  "author": "Laszlo Racz <hdkiller@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.wunderlist.com/login",
+    "serviceName": "Wunderlist",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
