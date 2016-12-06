@@ -7,7 +7,7 @@
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.jexia.com",
-    "serviceName": "jeXIA",
+    "serviceName": "Jexia",
     "message": "",
     "popup": [],
     "hasNotificationSound": false,
