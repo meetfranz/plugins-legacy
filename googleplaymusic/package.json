@@ -1,0 +1,23 @@
+{
+  "name": "googleplaymusic",
+  "version": "1.0.0",
+  "description": "Google Play makes it easy to discover millions of songs, instantly, from any device.",
+  "main": "index.js",
+  "author": "Paul Givel <paul@givel.fr>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://play.google.com/music",
+    "serviceName": "Google Play Music",
+    "message": "Google Play makes it easy to discover millions of songs, instantly, from any device.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
