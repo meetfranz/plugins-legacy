@@ -1,7 +1,7 @@
 {
-  "name": "Zoho Mail",
+  "name": "Office365",
   "version": "1.0.0",
-  "description": "Outlook from Office365",
+  "description": "Outlook Office365",
   "main": "index.js",
   "author": "Chris Gray <chris.gray@amido.com>",
   "license": "MIT",
