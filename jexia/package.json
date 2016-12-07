@@ -1,0 +1,23 @@
+{
+  "name": "jexia",
+  "version": "1.0.0",
+  "description": "Franz plugin for Jexia.com. Next generation developers platform.",
+  "main": "index.js",
+  "author": "Vassilis Pitsounis <vapits@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.jexia.com",
+    "serviceName": "Jexia",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
