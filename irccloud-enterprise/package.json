@@ -1,0 +1,23 @@
+{
+  "name": "IRCCloud Enterprise",
+  "version": "1.0.0",
+  "description": "IRCCloud hosted edition.",
+  "main": "index.js",
+  "author": "Chuck Harmston <chuck@harmston.ch>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}",
+    "serviceName": "IRCCloud",
+    "message": "IRCCloud Team should refer to the hostname of the server, e.g. 'irccloud.example.com'",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false   
+  }
+}
