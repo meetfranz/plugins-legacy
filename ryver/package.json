@@ -1,0 +1,23 @@
+{
+  "name": "ryver",
+  "version": "1.0.0",
+  "description": "ryver",
+  "main": "index.js",
+  "author": "Stenio Araujo <stenio.araujo@ccc.ufcg.edu.br>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.ryver.com/application/login",
+    "serviceName": "Ryver",
+    "message": "The Best in Free Team Communications",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
