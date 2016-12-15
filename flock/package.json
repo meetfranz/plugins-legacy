@@ -1,0 +1,23 @@
+{
+  "name": “flock”,
+  "version": "1.0.0",
+  "description": “flock”,
+  "main": "index.js",
+  "author": “Aman Luthra <aman.luthra@nyu.edu>”,
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.flock.co/",
+    "serviceName": “Flock”,
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
