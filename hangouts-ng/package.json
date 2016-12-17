@@ -1,0 +1,23 @@
+{
+  "name": "hangouts-ng",
+  "version": "0.1.0",
+  "description": "Google Hangouts-NG",
+  "main": "index.js",
+  "author": "Jason Antman <jason@jasonantman.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://hangouts.google.com/",
+    "serviceName": "Google Hangouts-NG",
+    "message": "Hangouts bring conversations to life with photos, emoji, and even group video calls for free. Connect with friends across computers, Android, and Apple devices.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
