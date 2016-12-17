@@ -1,0 +1,23 @@
+{
+  "name": "Peppercom NL",
+  "version": "1.0.0",
+  "description": "Pepper.com heeft de heetste aanbiedingen van jouw favoriete merken, geplaatst door echte mensen, zoals jij. De community bepaalt of aanbiedingen 'heet' of 'koud' zijn, zo ben je er zeker van dat je altijd de beste deal scoort.",
+  "main": "index.js",
+  "author": "Harold Masselink <Harold@Masselink.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://nl.pepper.com",
+    "serviceName": "Pepper.com NL",
+    "message": "De heetste aanbiedingen",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

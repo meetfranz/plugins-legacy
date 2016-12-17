@@ -1,0 +1,7 @@
+footer, #header, .signup-link, #ztb-service-info, #ztb-settings {
+    display: none !important;
+}
+
+#ztb-switch-menu {
+	visibility: hidden !important;
+}
