@@ -1,0 +1,23 @@
+{
+  "name": "HotUKDeals",
+  "version": "1.0.0",
+  "description": "HUKD is a community for deal seekers. Find and share the best",
+  "main": "index.js",
+  "author": "Harold Masselink <Harold@Masselink.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.hotukdeals.com/",
+    "serviceName": "HotUKDeals",
+    "message": "HUKD is a community for deal seekers. Find and share the best",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
