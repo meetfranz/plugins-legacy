@@ -1,0 +1,23 @@
+{
+  "name": "pushover",
+  "version": "0.1.0",
+  "description": "Pushover",
+  "main": "index.js",
+  "author": "Jason Antman <jason@jasonantman.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://client.pushover.net/",
+    "serviceName": "Pushover",
+    "message": "Pushover is a service to receive instant push notifications on your phone or tablet from a variety of sources.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
