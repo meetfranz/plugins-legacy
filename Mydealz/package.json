@@ -1,0 +1,23 @@
+{
+  "name": "Mydealz",
+  "version": "1.0.0",
+  "description": "Top Schnäppchen & Angebote ♥ Bei uns findest du die besten Deals & Gutscheine",
+  "main": "index.js",
+  "author": "Harold Masselink <Harold@Masselink.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.mydealz.de/",
+    "serviceName": "Mydealz",
+    "message": "Top Schnäppchen & Angebote ♥ Bei uns findest du die besten Deals & Gutscheine",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
