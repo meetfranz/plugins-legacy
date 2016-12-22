@@ -1,0 +1,23 @@
+{
+  "name": "fleep",
+  "version": "1.0.0",
+  "description": "Fleep - A messenger for your teams and projects",
+  "main": "index.js",
+  "author": "Martin Valgur <martin.valgur@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://fleep.io/login",
+    "serviceName": "Fleep",
+    "message": "Fleep enables communication within and across organizations - be it your team chats, project communication or 1:1 conversations.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
