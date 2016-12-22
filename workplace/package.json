@@ -1,0 +1,26 @@
+{
+  "name": "workplace",
+  "version": "1.0.0",
+  "description": "Franz Workplace Plugin",
+  "main": "index.js",
+  "author": "Ricardo Tomasi <ricardobeat@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.facebook.com/chat/t",
+    "serviceName": "Workplace",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "wording": {
+        "url": "facebook.com",
+        "team": "Workplace"
+    },
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
