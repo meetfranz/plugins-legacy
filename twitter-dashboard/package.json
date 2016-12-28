@@ -1,0 +1,23 @@
+{
+  "name": "twitter dashboard",
+  "version": "1.0.0",
+  "description": "Twitter Dashboard",
+  "main": "index.js",
+  "author": "Julian Yaman <julianyaman2001@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://dashboard.twitter.com/",
+    "serviceName": "Twitter Dashboard",
+    "message": "Twitter Dashboard is a powerful tool designed to help businesses connect with their customers and community",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
