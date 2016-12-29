@@ -1,0 +1,23 @@
+{
+  "name": "Asana",
+  "version": "1.0.0",
+  "description": "Asana Franz Plugin",
+  "main": "index.js",
+  "author": "Ozturk <mail@uozturk.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.asana.com/",
+    "serviceName": "Asana",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
