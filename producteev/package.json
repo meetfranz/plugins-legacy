@@ -1,0 +1,23 @@
+{
+  "name": "producteev",
+  "version": "1.0.0",
+  "description": "producteev plugin for Franz",
+  "main": "index.js",
+  "author": "Christoph Mueller <christoph@flying-lama.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://producteev.com/login",
+    "serviceName": "Producteev",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
