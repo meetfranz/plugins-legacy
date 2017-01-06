@@ -1,0 +1,23 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "Spotify Web Player",
+  "main": "index.js",
+  "author": "Daniel Bertolozi <danielbertolozi@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://play.spotify.com/?http=1",
+    "serviceName": "Spotify Web Player",
+    "message": "Spotify is a music streaming service",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
