@@ -1,0 +1,23 @@
+{
+  "name": "athom-homey",
+  "version": "1.0.0",
+  "description": "Athom Homey in Franz",
+  "main": "index.js",
+  "author": "Casper Boone <info@casperboone.nl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://my.athom.com/",
+    "serviceName": "Athom Homey",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
