@@ -1,0 +1,23 @@
+{
+  "name": "confluence-cloud",
+  "version": "1.0.0",
+  "description": "confluence-cloud",
+  "main": "index.js",
+  "author": "Madison Steiner <me@jbs.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.atlassian.net/login?dest-url=/wiki%2Findex.action",
+    "serviceName": "Confluence Cloud",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

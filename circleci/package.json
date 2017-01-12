@@ -1,0 +1,23 @@
+{
+  "name": "circleci",
+  "version": "1.0.0",
+  "description": "circleci",
+  "main": "index.js",
+  "author": "Madison Steiner <me@jbs.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://circleci.com/dashboard",
+    "serviceName": "CircleCI",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

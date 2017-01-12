@@ -1,0 +1,23 @@
+{
+  "name": "confluence",
+  "version": "1.0.0",
+  "description": "confluence",
+  "main": "index.js",
+  "author": "Madison Steiner <me@jbs.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Confluence",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

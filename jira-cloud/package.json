@@ -1,0 +1,23 @@
+{
+  "name": "jira-cloud",
+  "version": "1.0.0",
+  "description": "jira-cloud",
+  "main": "index.js",
+  "author": "Madison Steiner <me@jbs.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.atlassian.net/login",
+    "serviceName": "JIRA Cloud",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
