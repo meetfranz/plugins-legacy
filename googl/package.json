@@ -1,0 +1,23 @@
+{
+  "name": "googl",
+  "version": "1.0.0",
+  "description": "Google Url Shortener",
+  "main": "index.js",
+  "author": "Heavybeard <info@heavybeard.it>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://goo.gl/",
+    "serviceName": "Google Url Shortener",
+    "message": "Simplify your links",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
