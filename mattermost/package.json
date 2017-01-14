@@ -1,0 +1,23 @@
+{
+    "name": "mattermost",
+    "version": "1.0.0",
+    "description": "Mattermost",
+    "main": "index.js",
+    "author": "Niklas Neesen <n.neesen@me.com>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "",
+        "serviceName": "Mattermost",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasIndirectMessages": false,
+        "hasTeamID": true,
+        "customURL": true,
+        "hostedOnly": true,
+        "webviewOptions": {
+            "disablewebsecurity": ""
+        },
+        "openDevTools": false
+    }
+}
