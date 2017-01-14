@@ -1,0 +1,23 @@
+{
+  "name": "Instapaper",
+  "version": "1.0.0",
+  "description": "Instapaper",
+  "main": "index.js",
+  "author": "Jack Makiyama <jackmakiyama@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.instapaper.com/u",
+    "serviceName": "Instapaper",
+    "message": "Save Anything. Read Anywhere.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
