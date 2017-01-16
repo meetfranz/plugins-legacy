@@ -1,0 +1,23 @@
+{
+  "name": "Nirvana",
+  "version": "1.0.0",
+  "description": "Nirvana",
+  "main": "index.js",
+  "author": "Martin <m@uray.at>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.nirvanahq.com/login",
+    "serviceName": "Nirvana",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
