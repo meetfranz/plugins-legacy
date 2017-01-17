@@ -1,0 +1,23 @@
+{
+  "name": "Stack Overflow",
+  "version": "1.0.0",
+  "description": "Stack Overflow",
+  "main": "index.js",
+  "author": "Matt Sephton <matt.sephton@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://stackoverflow.com",
+    "serviceName": "Stack Overflow",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
