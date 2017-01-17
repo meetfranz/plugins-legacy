@@ -1,0 +1,23 @@
+{
+  "name": "Stack Exchange",
+  "version": "1.0.0",
+  "description": "Stack Exchange",
+  "main": "index.js",
+  "author": "Matt Sephton <matt.sephton@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://stackexchange.com/users/login",
+    "serviceName": "Stack Exchange",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
