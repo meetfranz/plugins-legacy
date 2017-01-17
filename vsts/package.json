@@ -1,0 +1,23 @@
+{
+  "name": "meetfranz-vsts-plugin",
+  "version": "1.0.0",
+  "description": "Microsoft Visual Studio Team Services plugin for meetfranz.",
+  "main": "index.js",
+  "author": "Heitor Ramon Ribeiro",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.visualstudio.com",
+    "serviceName": "VSTS",
+    "message": "Microsoft Visual Studio Team Services plugin for meetfranz.",
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "wording": {
+        "url": "visualstudio.com",
+        "team": "VSTS"
+    },
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
