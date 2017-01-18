@@ -1,0 +1,23 @@
+{
+  "name": "asana",
+  "version": "1.0.0",
+  "description": "asana",
+  "main": "index.js",
+  "author": "Shane Jones <me@shanejones.co.uk>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.asana.com/",
+    "serviceName": "Asana",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
