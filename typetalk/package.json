@@ -1,0 +1,23 @@
+{
+  "name": "typetalk",
+  "version": "1.0.0",
+  "description": "Typetalk is a powerful messaging and chat app for team discussion. Improve efficiency and team work. Available on desktop and mobile. Sign up for free today!",
+  "main": "index.js",
+  "author": "Nulab Inc. <taichiro.yoshida@nulab-inc.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://typetalk.in",
+    "serviceName": "Typetalk",
+    "message": "Typetalk is a powerful messaging and chat app for team discussion. Improve efficiency and team work. Available on desktop and mobile. Sign up for free today!",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
