@@ -1,0 +1,23 @@
+{
+  "name": "googlevoice",
+  "version": "0.1.0",
+  "description": "Google Voice",
+  "main": "index.js",
+  "author": "Behind The Math <behindthemath@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.google.com/voice",
+    "serviceName": "Google Voice",
+    "message": "Google Voice gives you one number for all your phones, voicemail as easy as email, free US long distance, low rates on international calls, and many calling features like transcripts, call blocking, call screening, conference calling, SMS, and more.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
