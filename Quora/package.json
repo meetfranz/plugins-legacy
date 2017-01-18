@@ -1,13 +1,13 @@
 {
-  "name": "Evernote",
+  "name": "Quora",
   "version": "1.0.0",
-  "description": "Evernote",
+  "description": "Quora",
   "main": "index.js",
-  "author": "Yitch <mr.yitch@gmail.com>",
+  "author": "Matt Sephton <matt.sephton@gmail.com>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://www.evernote.com/Login.action",
-    "serviceName": "Evernote",
+    "serviceURL": "https://www.quora.com",
+    "serviceName": "Quora",
     "message": "",
     "popup": [],
     "hasNotificationSound": false,
