@@ -3,15 +3,54 @@
 .bx-layout-inner-inner-top-row,
 .log-main-table > tbody > tr:first-child,
 .log-main-table > tbody > tr:last-child,
-.bx-layout-table > tbody > tr:first-child {
-	display: none;
+.header-search,
+.help-block,
+.user-block,
+#b24network-informer-events,
+.scrumban-head-informers,
+#feed-up-btn-wrap {
+	display: none !important;
 }
 
 body {
-	min-height: 100%;
+	min-height: 100% !important;
 }
 
 td.bx-layout-inner-center table.bx-layout-inner-inner-table td.bx-layout-inner-inner-cont,
 #header-inner {
-	padding-right: 0;
+	padding-right: 0 !important;
+}
+
+#header-inner {
+	padding-left: 0 !important;
+}
+
+#slideUp {
+	height: 15px;
+    width: 30px;
+    background-color: #535c69;
+    position: absolute;
+    z-index: 9;
+    left: calc(50% - 15px);
+    border: none;
+    cursor: pointer;
+}
+
+#slideUp:after {
+    background: url(/bitrix/templates/bitrix24/images/template_sprite.png?9) no-repeat -118px -99px;
+    content: '';
+    height: 3px;
+    margin-top: -2px;
+    left: 11px;
+    top: 50%;
+    position: absolute;
+    width: 7px;
+}
+
+#workarea {
+	height: 100% !important;
+}
+
+table.bx-layout-inner-inner-table td.bx-layout-inner-inner-cont {
+	display: block !important;
 }
