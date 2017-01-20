@@ -1,0 +1,23 @@
+{
+  "name": "Bitrix24",
+  "version": "1.0.0",
+  "description": "Bitrix24",
+  "main": "index.js",
+  "author": "VaLeXaR <valexar12@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Bitrix24",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
