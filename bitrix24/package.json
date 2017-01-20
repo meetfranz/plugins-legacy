@@ -1,7 +1,7 @@
 {
-  "name": "Bitrix24",
+  "name": "Bitrix24.Chat",
   "version": "1.0.0",
-  "description": "Bitrix24",
+  "description": "Bitrix24 Chat",
   "main": "index.js",
   "author": "VaLeXaR <valexar12@gmail.com>",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "message": "",
     "popup": [],
     "hasNotificationSound": true,
-    "hasIndirectMessages": true,
+    "hasIndirectMessages": false,
     "hasTeamID": true,
     "customURL": true,
     "hostedOnly": true,
