@@ -7,7 +7,7 @@
   "license": "MIT",
   "config": {
     "serviceURL": "",
-    "serviceName": "Bitrix24",
+    "serviceName": "Bitrix24.Chat",
     "message": "",
     "popup": [],
     "hasNotificationSound": true,
