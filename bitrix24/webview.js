@@ -34,3 +34,8 @@ $(document).on('click', '#slideUp', function(){
 if (localStorage.getItem('display') == 0) {
 	$('#header').hide();
 }
+
+$(document).on('click', '#logo_24_a', function(){
+	window.open(this.href, '__blank');
+	return false;
+});
