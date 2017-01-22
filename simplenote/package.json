@@ -1,0 +1,23 @@
+{
+  "name": "Simplenote",
+  "version": "1.0.0",
+  "description": "Simplenote",
+  "main": "index.js",
+  "author": "Ajitesh Rai <ajiteshr7@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.simplenote.com/signin/",
+    "serviceName": "Simplenote",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
