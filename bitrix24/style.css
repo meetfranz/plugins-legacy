@@ -8,7 +8,9 @@
 .user-block,
 #b24network-informer-events,
 .scrumban-head-informers,
-#feed-up-btn-wrap {
+#feed-up-btn-wrap,
+.bx-messenger-popup-menu-item[href*="/user/"],
+.bx-auth-serv-icons {
 	display: none !important;
 }
 

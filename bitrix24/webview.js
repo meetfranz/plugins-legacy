@@ -35,7 +35,7 @@ if (localStorage.getItem('display') == 0) {
 	$('#header').hide();
 }
 
-$(document).on('click', '#logo_24_a', function(){
+$(document).on('click', '#logo_24_a', function(event){
 	window.open(this.href, '__blank');
 	return false;
 });
