@@ -1,13 +1,13 @@
 {
-  "name": "Evernote",
+  "name": "taiga.io",
   "version": "1.0.0",
-  "description": "Evernote",
+  "description": "taiga plugin for Franz",
   "main": "index.js",
-  "author": "Yitch <mr.yitch@gmail.com>",
+  "author": "Jorge Epuñan <juanbrujo@gmail.com>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://www.evernote.com/Login.action",
-    "serviceName": "Evernote",
+    "serviceURL": "https://tree.taiga.io/login",
+    "serviceName": "Taiga",
     "message": "",
     "popup": [],
     "hasNotificationSound": false,
