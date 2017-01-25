@@ -1,0 +1,23 @@
+{
+  "name": "workplace",
+  "version": "1.0.0",
+  "description": "Franz Workplace Plugin",
+  "main": "index.js",
+  "author": "Dennis Kaarsemaker <dennis@kaarsemaker.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Workplace",
+    "message": "Enter workplace address. EG. https://mycompany.facebook.com/",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
