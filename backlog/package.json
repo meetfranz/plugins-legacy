@@ -1,0 +1,23 @@
+{
+  "name": "Backlog",
+  "version": "1.0.0",
+  "description": "Backlog",
+  "main": "index.js",
+  "author": "harapeko <tea.lile.tea@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.backlog.jp/LoginDisplay.action",
+    "serviceName": "Backlog",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
