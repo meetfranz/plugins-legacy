@@ -1,0 +1,27 @@
+{
+  "name": "Backlog",
+  "version": "1.0.0",
+  "description": "Backlog",
+  "main": "index.js",
+  "author": "1natsu <1natsummer+gitsupport@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.backlog.jp/LoginDisplay.action",
+    "serviceName": "Backlog",
+    "message": "『Backlog チーム』欄にはBacklogのスペースIDを入力してください",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "wording": {
+        "url": "backlog.jp",
+        "team": "Backlog"
+    },
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
