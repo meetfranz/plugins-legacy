@@ -1,0 +1,22 @@
+{
+  "name": "Fastmail.fm",
+  "version": "1.0.0",
+  "description": "Franz Fastmial.fm Plugin",
+  "main": "index.js",
+  "author": "Arthur Harduim <harduim.arthur@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.fastmail.com/mail/",
+    "serviceName": "Fastmail.fm",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
