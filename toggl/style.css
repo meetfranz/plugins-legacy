@@ -1,0 +1,6 @@
+.ProjectsPopdown__popdown {
+ width: 1100px !important;
+}
+.Project__name {
+ text-overflow: initial !important;
+}
