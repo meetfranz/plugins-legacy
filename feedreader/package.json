@@ -1,0 +1,23 @@
+{
+  "name": "feedreader",
+  "version": "1.0.0",
+  "description": "feedreader",
+  "main": "index.js",
+  "author": "<pricelessrabbit@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://feedreader.com/online/#/welcome/?action=login",
+    "serviceName": "FeedReader",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
