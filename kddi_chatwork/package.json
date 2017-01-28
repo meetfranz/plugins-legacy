@@ -1,0 +1,23 @@
+{
+  "name": "KDDIChatWork",
+  "version": "1.0.0",
+  "description": "KDDIChatWork",
+  "main": "index.js",
+  "author": "",
+  "license": "",
+  "config": {
+    "serviceURL": "https://kcw.kddi.ne.jp/login.php?lang=ja&args=",
+    "serviceName": "KDDIChatWork",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
