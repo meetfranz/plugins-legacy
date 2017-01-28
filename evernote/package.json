@@ -1,9 +1,9 @@
 {
-  "name": "Evernote",
+  "name": "evernote",
   "version": "1.0.0",
-  "description": "Evernote",
+  "description": "evernote",
   "main": "index.js",
-  "author": "Yitch <mr.yitch@gmail.com>",
+  "author": "Jasper van Veenhuizen <jasper@vanveenhuizen.nl>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.evernote.com/Login.action",
