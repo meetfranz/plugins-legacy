@@ -1,0 +1,23 @@
+{
+  "name": "kincalendar",
+  "version": "1.0.0",
+  "description": "The sun will rise again. Here's the best calendar experience.  Kin is our vision of a simple & connected calendar where you can manage your life in one interface without the hassle of juggling between websites, calendar and other services apps.",
+  "main": "index.js",
+  "author": "stereoplegic <me@mikebybee.com",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://calendar.kin.today/",
+    "serviceName": "Kin Calendar",
+    "message": "The sun will rise again. Here's the best calendar experience. Kin is our vision of a simple & connected calendar where you can manage your life in one interface without the hassle of juggling between websites, calendar and other services apps.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
