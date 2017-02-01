@@ -1,0 +1,23 @@
+{
+  "name": "Help Scout",
+  "version": "1.0.0",
+  "description": "Help Scout plugin for Franz",
+  "main": "index.js",
+  "author": "Daniel J Griffiths <dgriffiths@section214.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.helpscout.net/dashboard",
+    "serviceName": "Help Scout",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
