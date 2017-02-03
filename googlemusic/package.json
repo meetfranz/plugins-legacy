@@ -1,0 +1,23 @@
+{
+  "name": "GoogleMusic",
+  "version": "0.0.1",
+  "description": "Google Play Music",
+  "main": "index.js",
+  "author": "Mohamed Gupta <fricktardidiot@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://play.google.com/music/listen",
+    "serviceName": "GoogleMusic",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
