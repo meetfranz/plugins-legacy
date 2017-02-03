@@ -35,7 +35,8 @@ if (localStorage.getItem('display') == 0) {
 	$('#header').hide();
 }
 
-$(document).on('click', '#logo_24_a', function(event){
+$(document).on('click', '#logo_24_a, .bx-messenger-panel-title-link', function(event){
 	window.open(this.href, '__blank');
 	return false;
 });
+$('.bx-layout-table > tbody > tr:first').after($('.bx-im-fullscreen-popup-table .bx-im-fullscreen-popup-td2'));
