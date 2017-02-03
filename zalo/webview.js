@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = (Franz, options) => {
 	function getMessages() {
 		var count = 0;
-		var badge = document.getElementsByClassName('number-neo');
+		var badge = document.getElementsByClassName('func-unread');
 		for (i = 0; i < badge.length; i++) {
 			count += parseInt(badge[i].innerHTML);
 		}
