@@ -1,0 +1,23 @@
+{
+  "name": "travis-ci",
+  "version": "1.0.0",
+  "description": "travis-ci",
+  "main": "index.js",
+  "author": "Josh Kim <josh_kimjy@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://travis-ci.com/",
+    "serviceName": "Travis-CI",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
