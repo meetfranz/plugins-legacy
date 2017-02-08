@@ -1,0 +1,23 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Twitter feed",
+  "main": "index.js",
+  "author": "Charles Feval <charles@feval.ca>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://mobile.twitter.com/",
+    "serviceName": "Twitter",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
