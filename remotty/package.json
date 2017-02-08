@@ -1,0 +1,23 @@
+{
+  "name": "remotty",
+  "version": "1.0.0",
+  "description": "Remotty in Franz",
+  "main": "index.js",
+  "author": "suin <suinyeze@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.remotty.net/",
+    "serviceName": "Remotty",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
