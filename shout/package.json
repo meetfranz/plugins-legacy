@@ -1,0 +1,23 @@
+{
+  "name": "Shout",
+  "version": "1.0.0",
+  "description": "Shout - The self-hosted web IRC client",
+  "main": "index.js",
+  "author": "Stuart Clark <stu@rtclark.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Shout",
+    "message": "The self-hosted web IRC client",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": true,
+    "hostedOnly": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

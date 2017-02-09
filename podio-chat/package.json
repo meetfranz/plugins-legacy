@@ -1,0 +1,23 @@
+{
+  "name": "podio-chat",
+  "version": "1.0.0",
+  "description": "Podio Chat",
+  "main": "index.js",
+  "author": "Jan Willem Kaper <kapersoft@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://podio.com/conversations",
+    "serviceName": "Podio Chat",
+    "message": "",
+    "popup": [
+    ],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+    },
+    "openDevTools": false
+  }
+}
