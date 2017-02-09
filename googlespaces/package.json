@@ -1,0 +1,23 @@
+{
+  "name": "googlespaces",
+  "version": "1.0.0",
+  "description": "Use Google Spaces.",
+  "main": "index.js",
+  "author": "goro <goro@qzen.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://spaces.google.com/",
+    "serviceName": "Google Spaces",
+    "message": "Spaces. Your easy way to figure things out, together.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
