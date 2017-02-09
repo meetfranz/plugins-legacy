@@ -1,0 +1,24 @@
+{
+  "name": "Teamwork Chat",
+  "version": "1.0.0",
+  "description": "Teamwork Chat Integration",
+  "main": "index.js",
+  "author": "Sachiano",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.teamwork.com/chat",
+    "serviceName": "Teamwork Chat",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "http://www.teamwork.com/chat",
+        "team": "Teamwork Chat"
+    }
+  }
+}
