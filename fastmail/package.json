@@ -1,0 +1,22 @@
+{
+  "name": "fastmail",
+  "version": "1.0.0",
+  "description": "Email, calendars and contacts done right",
+  "main": "index.js",
+  "author": "Alan Plum <me@pluma.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.fastmail.com/mail/",
+    "serviceName": "FastMail",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
