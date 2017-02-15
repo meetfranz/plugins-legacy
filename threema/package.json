@@ -1,0 +1,23 @@
+{
+  "name": "Threema",
+  "version": "1.0.0",
+  "description": "Threema Webclient, testing version.",
+  "main": "index.js",
+  "author": "Alex Peltzer <alex.peltzer@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.threema.ch",
+    "serviceName": "Threema",
+    "message": "The Threema WebClient",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
