@@ -1,0 +1,102 @@
+.bx-layout-inner-left,
+.bx-layout-inner-table > tbody > tr:last-child,
+.bx-layout-inner-inner-top-row,
+.log-main-table > tbody > tr:first-child,
+.log-main-table > tbody > tr:last-child,
+.header-search,
+.help-block,
+.user-block,
+#b24network-informer-events,
+.scrumban-head-informers,
+#feed-up-btn-wrap,
+.bx-messenger-popup-menu-item[href*="/user/"],
+.bx-auth-serv-icons,
+.bx-im-fullscreen-popup,
+.bx-layout-table > tbody > tr:last-child,
+#sitemap-menu {
+	display: none !important;
+}
+
+body {
+	min-height: 100% !important;
+}
+
+td.bx-layout-inner-center table.bx-layout-inner-inner-table td.bx-layout-inner-inner-cont,
+#header-inner {
+	padding-right: 0 !important;
+}
+
+#header-inner,
+.header-logo-block {
+	padding-left: 0 !important;
+}
+
+#slideUp {
+	height: 15px;
+    width: 30px;
+    background-color: #535c69;
+    position: absolute;
+    z-index: 9;
+    left: calc(50% - 15px);
+    border: none;
+    cursor: pointer;
+}
+
+#slideUp:after {
+    background: url(/bitrix/templates/bitrix24/images/template_sprite.png) no-repeat -118px -99px;
+    content: '';
+    height: 3px;
+    margin-top: -2px;
+    left: 11px;
+    top: 50%;
+    position: absolute;
+    width: 7px;
+}
+
+#workarea,
+.bx-desktop-appearance-menu,
+.bx-desktop-appearance-content,
+.bx-layout-header,
+.bx-im-fullscreen-popup-td2,
+.bx-layout-table > tbody,
+.bx-desktop-placeholder,
+.bx-desktop-appearance {
+	height: 100% !important;
+}
+
+#header {
+    min-width: 100% !important;
+}
+
+table.bx-layout-inner-inner-table td.bx-layout-inner-inner-cont,
+.bx-layout-table,
+.bx-layout-table > tbody > tr:nth-child(2),
+.bx-layout-table > tbody,
+.bx-layout-table > tbody > tr:first-child,
+.bx-layout-header,
+.bx-im-fullscreen-popup-td2 {
+	display: block !important;
+}
+
+.bx-layout-table .bx-desktop-placeholder {
+    display: inline-block;
+    width: 92%;
+    width: calc(100% - 100px);
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.20);
+    position: relative;
+}
+
+.bx-im-fullscreen-popup .bx-messenger-box-contact {
+    box-shadow: none
+}
+
+.bx-im-fullscreen-popup .bx-desktop-appearance-content {
+    box-shadow: none
+}
+
+.bx-im-fullscreen-adaptive {
+    display: block !important;
+    width: 100% !important;
+}
