@@ -1,0 +1,23 @@
+{
+  "name": "Viaplay",
+  "version": "1.0.0",
+  "description": "Viaplay",
+  "main": "index.js",
+  "author": "Jackson Isack <jackson.isack@viaplay.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.viaplay.se/",
+    "serviceName": "Viaplay",
+    "message": "",
+    "popup": ["^https:\/\/([a-zA-Z0-9\\-]*).viaplay.se\/([^~])*"],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
