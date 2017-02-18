@@ -1,0 +1,23 @@
+{
+  "name": "threema",
+  "version": "1.0.0",
+  "description": "Threema",
+  "main": "index.js",
+  "author": "Simon Männlein <simon.maennlein@googlemail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.threema.ch",
+    "serviceName": "Threema",
+    "message": "",
+    "popup": [
+    ],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+    },
+    "openDevTools": false
+  }
+}
