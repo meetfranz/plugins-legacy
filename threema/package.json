@@ -1,0 +1,23 @@
+{
+  "name": "threema",
+  "version": "1.0.1",
+  "description": "Threema",
+  "main": "index.js",
+  "author": "Simon Männlein <simon.maennlein@googlemail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.threema.ch/",
+    "serviceName": "Threema",
+    "message": "Chat from your desktop with Threema Web and have full access to all chats, contacts and media files.",
+    "popup": [
+    ],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+    },
+    "openDevTools": false
+  }
+}

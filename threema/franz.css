@@ -1,0 +1,13 @@
+footer {
+	display: none !important;
+}
+header {
+	display: none !important;
+}
+#main-wrapper {
+	width: 100% !important;
+	height: 100% !important;
+}
+#main {
+	border-radius: 0px !important;
+}
