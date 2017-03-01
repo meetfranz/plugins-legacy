@@ -1,0 +1,15 @@
+.fbChatSidebar {
+	display: none !important;
+}
+
+.fbDock {
+	display: none !important;
+}
+
+.ego_column {
+	display: none !important;
+}
+
+[role=navigation] > div:nth-child(2) > div:nth-child(2){
+	display: none !important;
+}
