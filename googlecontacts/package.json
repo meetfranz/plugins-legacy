@@ -1,0 +1,23 @@
+{
+  "name": "googlecontacts",
+  "version": "1.0.0",
+  "description": "Google's online contacts.",
+  "main": "index.js",
+  "author": "stephan <stephan@grimm.li>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://contacts.google.com/",
+    "serviceName": "Google Contacts",
+    "message": "Google's online contacts.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
