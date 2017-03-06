@@ -1,0 +1,23 @@
+{
+    "name": "Google Translate",
+    "version": "1.0.0",
+    "description": "Google Translate",
+    "main": "index.js",
+    "author": "Kent Chen<iamcxa@gmail.com>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://translate.google.com",
+        "serviceName": "Google Translate",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": false,
+        "hasIndirectMessages": false,
+        "hasTeamID": false,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": {
+            "disablewebsecurity": ""
+        },
+        "openDevTools": false
+    }
+}
