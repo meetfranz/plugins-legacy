@@ -1,0 +1,23 @@
+{
+  "name": "Youtube",
+  "version": "1.0.0",
+  "description": "Youtube",
+  "main": "index.js",
+  "author": "caesarchi <clonncd@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.youtube.com/",
+    "serviceName": "Youtube",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
