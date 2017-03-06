@@ -1,6 +1,6 @@
 {
     "name": "Synology DiskStation",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Synology DiskStation DSM",
     "main": "index.js",
     "author": "Kent Chen<iamcxa@gmail.com>",
