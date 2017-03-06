@@ -1,0 +1,24 @@
+{
+    "name": "Synology DiskStation",
+    "version": "1.0.0",
+    "description": "Synology DiskStation DSM",
+    "main": "index.js",
+    "author": "Kent Chen<iamcxa@gmail.com>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://{teamID}.quickconnect.to",
+        "serviceName": "Synology DiskStation",
+        "popup": [],
+        "hasNotificationSound": false,
+        "hasedirectMessages": true,
+        "hasTeamID": true,
+        "customURL": true,
+        "hostedOnly": false,
+        "webviewOptions": {},
+        "openDevTools": false,
+        "wording": {
+            "url": "quickconnect.to",
+            "team": "Synology DiskStation"
+        }
+    }
+}
