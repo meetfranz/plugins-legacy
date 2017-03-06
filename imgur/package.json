@@ -1,0 +1,23 @@
+{
+  "name": "imgur",
+  "version": "1.0.0",
+  "description": "Imgur",
+  "main": "index.js",
+  "author": "Devin Visslailli <devin.viss@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://imgur.com/account/messages",
+    "serviceName": "Imgur",
+    "message": "Imgur chat",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
