@@ -1,0 +1,22 @@
+{
+  "name": "reddit",
+  "version": "1.0.0",
+  "description": "Franz Reddit integration",
+  "main": "index.js",
+  "author": "Xavier Decuyper <hi@savjee.be>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.reddit.com/",
+    "serviceName": "Reddit",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
