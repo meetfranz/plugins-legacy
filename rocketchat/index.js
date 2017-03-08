@@ -4,7 +4,7 @@ module.exports = (Franz) => {
       const api = `${URL}/api/info`;
       return new Promise((resolve, reject) => {
         $.get(api, (resp) => {
-          if (typeof(resp) === 'object' && 'build' in resp) {
+          if (typeof(resp) === 'object' && ('build' in resp || 'version' in resp)) {
             resolve();
           } else {
             reject();
