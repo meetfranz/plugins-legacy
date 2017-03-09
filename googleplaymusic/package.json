@@ -1,0 +1,23 @@
+{
+  "name": "Google Play Music",
+  "version": "1.0.0",
+  "description": "Free radio for everything you do. Store 50000 tracks from your personal collection. Subscribe for on-demand access to 35 million songs and offline listening.",
+  "main": "index.js",
+  "author": "Acauã Montiel <contato@acauamontiel.com.br>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://play.google.com/music",
+    "serviceName": "Google Play Music",
+    "message": "Free radio for everything you do. Store 50000 tracks from your personal collection.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
