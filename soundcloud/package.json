@@ -1,0 +1,26 @@
+{
+  "name": "soundcloud",
+  "version": "1.0.0",
+  "description": "SoundCloud - Hear the world's sounds",
+  "main": "index.js",
+  "author": "Stijn Van Wijmeersch <stijn@vanwijmeersch.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://soundcloud.com/messages/",
+    "serviceName": "SoundCloud - Hear the world's sounds",
+    "message": "Discover, stream, and share a constantly expanding mix of music from emerging and major artists around the world.",
+    "popup": [
+      "^https:\/\/www.facebook.com\/dialog\/oauth?(.*)",
+      "^https:\/\/accounts.google.com/\/ServiceLogin?(.*)"
+    ],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
