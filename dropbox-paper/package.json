@@ -1,0 +1,23 @@
+{
+  "name": "dropbox-paper",
+  "version": "1.0.0",
+  "description": "Dropbox Paper",
+  "main": "index.js",
+  "author": "Zander Martineau",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://paper.dropbox.com",
+    "serviceName": "Dropbox Paper",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
