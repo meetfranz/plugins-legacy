@@ -1,0 +1,23 @@
+{
+  "name": "gitlab",
+  "version": "1.0.0",
+  "description": "gitlab",
+  "main": "index.js",
+  "author": "Stew Dellow <stewdellow@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://gitlab.com/users/sign_in",
+    "serviceName": "GitLab",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
