@@ -1,0 +1,23 @@
+{
+  "name": "The New Boston",
+  "version": "1.0.0",
+  "description": "The New Boston",
+  "main": "index.js",
+  "author": "Ace <carlangelopamparonievarez@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://thenewboston.com/",
+    "serviceName": "The New Boston",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
