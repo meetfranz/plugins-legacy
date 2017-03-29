@@ -1,0 +1,23 @@
+{
+  "name": "Toggl",
+  "version": "1.0.0",
+  "description": "Toggl’s time tracker is built for speed and ease of use. Time logging with Toggl is so simple that you’ll actually use it.",
+  "main": "index.js",
+  "author": "Maciej Palmowski <maciek@insanelab.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.toggl.com/app/timer",
+    "serviceName": "Toggl",
+    "message": "Toggl’s time tracker is built for speed and ease of use. Time logging with Toggl is so simple that you’ll actually use it.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
