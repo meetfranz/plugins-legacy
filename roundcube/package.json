@@ -1,0 +1,23 @@
+{
+    "name": "roundcube",
+    "version": "1.0.0",
+    "description": "Roundcube Webmail – open source webmail software",
+    "main": "index.js",
+    "author": "Christoph Mueller <christoph@flying-lama.com>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "",
+        "serviceName": "Roundcube",
+        "message": "Browser-based multilingual IMAP client with an application-like user interface. It provides full functionality you expect from an email client, including MIME support, address book, folder manipulation, message searching and spell checking.",
+        "popup": [],
+        "hasNotificationSound": false,
+        "hasIndirectMessages": true,
+        "hasTeamID": true,
+        "customURL": true,
+        "hostedOnly": true,
+        "webviewOptions": {
+            "disablewebsecurity": ""
+        },
+        "openDevTools": false
+    }
+}
