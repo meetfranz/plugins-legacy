@@ -1,0 +1,24 @@
+{
+  "name": "gitlab",
+  "version": "1.0.0",
+  "description": "gitlab",
+  "main": "index.js",
+  "author": "Brian Gilbert <brian@briangilbert.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "GitLab",
+    "message": "Enter Address of Gitlab server. EG. https://gitlab.com/",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
