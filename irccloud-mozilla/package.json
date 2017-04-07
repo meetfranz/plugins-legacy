@@ -1,0 +1,23 @@
+{
+  "name": "IRCCloud-Mozilla",
+  "version": "1.0.0",
+  "description": "Mozilla's corporate IRCCloud",
+  "main": "index.js",
+  "author": "Shing Lyu<shing.lyu@gmail.com>",
+  "license": "MPLv2",
+  "config": {
+    "serviceURL": "https://irccloud.mozilla.com/",
+    "serviceName": "IRCCloud-Mozilla",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
