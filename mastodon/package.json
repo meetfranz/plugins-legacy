@@ -1,0 +1,23 @@
+{
+  "name": "Mastodon",
+  "version": "1.0.0",
+  "description": "Mastodon",
+  "main": "index.js",
+  "author": "Jeremy Benoist <jeremy.benoist@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Mastodon",
+    "message": "Mastodon est un serveur libre de réseautage social.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
