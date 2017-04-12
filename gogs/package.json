@@ -1,0 +1,24 @@
+{
+  "name": "gogs",
+  "version": "1.0.0",
+  "description": "gogs",
+  "main": "index.js",
+  "author": "André Bação <andre@bacao.pt>",
+  "license": "MIT",
+  "config": {
+    "serviceName": "Gogs",
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "wording": {
+        "team": "Gogs"  ,
+        "url": ""
+    },
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
