@@ -42,7 +42,7 @@ If your service works with custom URLs, just leave this empty.
     "serviceURL": "https://www.messenger.com"
 }
 ```
-<br />
+Or 
 ```json
 {
     "serviceURL": "https://{teamID}.slack.com"
