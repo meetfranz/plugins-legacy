@@ -1,0 +1,23 @@
+{
+  "name": "Airdroid",
+  "version": "1.0.0",
+  "description": "AirDroid allows you to access and manage your Android phone or tablet from Windows, Mac or the Web, wirelessly, for free. Transfer files between your devices, and share files to your friends.",
+  "main": "index.js",
+  "author": "David Sipos <sipos22@msn.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://web.airdroid.com/",
+    "serviceName": "Airdroid",
+    "message": "AirDroid allows you to access and manage your Android phone or tablet from Windows, Mac or the Web, wirelessly, for free. Transfer files between your devices, and share files to your friends.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
