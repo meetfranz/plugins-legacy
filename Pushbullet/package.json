@@ -1,0 +1,23 @@
+{
+  "name": "pushbullet",
+  "version": "1.0.0",
+  "description": "pushbullet",
+  "main": "index.js",
+  "author": "Antonin Bruneau",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.pushbullet.com",
+    "serviceName": "Pushbullet",
+    "message": "Pushbullet connects your devices, making them feel like one.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
