@@ -1,0 +1,23 @@
+{
+  "name": "Instagram",
+  "version": "1.0.0",
+  "description": "Instagram",
+  "main": "index.js",
+  "author": "Marc Jose <Hering2007@web.de>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.instagram.com/",
+    "serviceName": "Instagram",
+    "message": "Instagram is a simple way to capture and share the world’s moments.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
