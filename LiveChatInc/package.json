@@ -1,0 +1,23 @@
+{
+  "name": "livechatinc",
+  "version": "1.0.0",
+  "description": "LiveChat is an online tool for customer service. Online businesses can use it to get in touch with customers.",
+  "main": "index.js",
+  "author": "javier aguero <soy@el.javier.pro>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://my.livechatinc.com/",
+    "serviceName": "Live Chat Inc",
+    "message": "The fastest way to help your customers.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
