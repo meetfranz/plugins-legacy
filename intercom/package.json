@@ -1,0 +1,23 @@
+{
+  "name": "intercom",
+  "version": "1.0.0",
+  "description": "Intercom Chat Plugin",
+  "main": "index.js",
+  "author": "Javier Aguero <soy@el.javier.pro>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Intercom",
+    "message": "Enter your Intercom Apps URL. EG. https://app.intercom.io/a/apps/BUSINESS-CODE/inbox/",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
