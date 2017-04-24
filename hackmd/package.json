@@ -1,0 +1,23 @@
+{
+  "name": "hackmd",
+  "version": "1.0.0",
+  "description": "hackmd",
+  "main": "index.js",
+  "author": "Chihiro Hasegawa <pgm3rdlinuxor1000@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://hackmd.io",
+    "serviceName": "HackMD",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
