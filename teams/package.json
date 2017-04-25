@@ -1,0 +1,24 @@
+{
+  "name": "microsoft teams",
+  "version": "1.0.0",
+  "description": "Microsoft Teams, the new chat-based workspace in Office 365",
+  "main": "index.js",
+  "author": "Jan Mattfeld <dev-franz-teams@janmattfeld.de>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://teams.microsoft.com/",
+    "serviceName": "Microsoft Teams",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": "",
+      "useragent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2725.0 Safari/537.36"
+    },
+    "openDevTools": false
+  }
+}
