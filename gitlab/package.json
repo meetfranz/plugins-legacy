@@ -1,0 +1,24 @@
+{
+  "name": "Gitlab",
+  "version": "0.0.1",
+  "description": "Gitlab",
+  "main": "index.js",
+  "author": "Mario Micklisch",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://gitlab.com/users/sign_in",
+    "serviceName": "Gitlab",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasedirectMessages": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "Hosted on Gitlab.com",
+        "team": "Gitlab"
+    }
+  }
+}
