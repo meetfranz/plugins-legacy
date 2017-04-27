@@ -1,0 +1,23 @@
+{
+  "name": "Asana",
+  "version": "1.0.0",
+  "description": "Asana is the easiest way for teams to track their work and get results.",
+  "main": "index.js",
+  "author": "Enrique Barragán <enrique@disruptiveangels.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://app.asana.com/",
+    "serviceName": "Asana",
+    "message": "Asana is the easiest way for teams to track their work and get results.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
