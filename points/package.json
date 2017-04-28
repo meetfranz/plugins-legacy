@@ -1,0 +1,23 @@
+{
+  "name": "points",
+  "version": "1.0.0",
+  "description": "points",
+  "main": "index.js",
+  "author": "Enrique Barragán <enrique@disruptiveangels.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://points.disruptiveangels.com/",
+    "serviceName": "Points",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
