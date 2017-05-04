@@ -1,0 +1,23 @@
+{
+  "name": "duolingo",
+  "version": "1.0.0",
+  "description": "Duolingo Languages",
+  "main": "index.js",
+  "author": "Yamil Elías <yamileliassoto@gmail.com>",
+  "license": "GPL",
+  "config": {
+    "serviceURL": "https://www.duolingo.com",
+    "serviceName": "Duolingo",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+    	"disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
