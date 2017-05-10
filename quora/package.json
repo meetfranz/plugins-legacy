@@ -1,0 +1,23 @@
+{
+  "name": "Quora",
+  "version": "1.0.0",
+  "description": "Quora",
+  "main": "index.js",
+  "author": "Anirudh M <m.anirudh18@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.quora.com/",
+    "serviceName": "Quora",
+    "message": "Quora is a question-and-answer site where questions are asked, answered, edited and organized by its community of users.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
