@@ -1,0 +1,23 @@
+{
+  "name": "Twitch",
+  "version": "1.0.0",
+  "description": "Twitch",
+  "main": "index.js",
+  "author": "Alejandro Cornejo <coronelalx@gmail.com>",
+  "license": "GPL",
+  "config": {
+    "serviceURL": "https://www.twitch.tv/directory/following/live",
+    "serviceName": "Twitch",
+    "message": "Twitch",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

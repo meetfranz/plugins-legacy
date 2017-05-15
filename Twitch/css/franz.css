@@ -1,0 +1,890 @@
+div.item:nth-child(1){
+display: none !important;
+}
+.cn-cover-wrap {
+display: none !important;
+}
+.app-main, #main_col, .target-frame, .main, .fullwidth_main, #site_header, #left_close, #right_close, .dropmenu, .ui-menu, .ui-multiselect-menu, .theatreCloseNotice, input, input.text, .recurly input, input.string, select, .form__input[type=text], .form__input[type=email], .form__input[type=password], .form__input[type=search], textarea, select.form__input, .input--ce-text, .dropdown, .dropdown_static, .hostmode-title-container, .close-hostmode, .ember-chat .chat-room-list, .ember-chat .top-dropdown, .ember-chat .chat-interface .suggestions, .modal-form .header, .modal-form .buttons, .whatisthis, .following-hint .bubble, #flyout .content, .multi_select li.selector form:hover, .multi_select li.selector > label:hover, .connect_items .connect-item-info, #endless_scroll_loader, .no-login-contain li, .st-autocomplete-sidebar .label, .st-autocomplete-small .label, .st-autocomplete .label, .switch span::before, .ember-chat .chat-messages .whisper-line.whisper-incoming, #noty_bottomCenter_layout_container>.noty_bar.error .noty_message, #noty_bottomCenter_layout_container>.noty_bar.notice .noty_message, .tabs--fullwidth li:not(.selected) a:hover, #channel .player-column #broadcast-meta .info .title:hover, body.kraken-page, .leaf, .player-menu__menu, .balloon, .balloon::after, .theatre .emoticon-selector .emoticon-grid, .dark .emoticon-selector .emoticon-grid, .app-main.theatre .chat-container .emoticon-selector .emoticon-grid, .app-main.theatre .ember-chat-container .emoticon-selector .emoticon-grid, .force-dark .emoticon-selector .emoticon-grid, .theatre .emoticon-selector .tabs, .dark .emoticon-selector .tabs, .app-main.theatre .chat-container .emoticon-selector .tabs, .app-main.theatre .ember-chat-container .emoticon-selector .tabs, .force-dark .emoticon-selector .tabs, .theatre .emoticon-selector .emoticon-selector__tabs, .dark .emoticon-selector .emoticon-selector__tabs, .chat-chip, .activity-card, .activity-button, .activity-meta-divider::before, .conversations-list, .conversation-window .convoHeader, .conversation-window, .conversation-settings-menu, .ember-chat .chat-interface .chat-rules, .player-switch .switch-toggle:before, .nav, .table, .table__row, .nv-clip-content__meta, .previewer__pane, .cn-bar, .cn-bar__avatar-wrap, .ct-bar, .ct-crumb--1 .ct-crumb__label, .ct-crumb--1:after, .ct-spotlight__right, .card-carousel__button, .card__img, .search-panel, .ce-clip-center .ce-clip-center__pre-control, .view-clip__meta-wrapper, .view-clip__smallTitle>div, .emote-picker, .bits-card, .sticky-message--pinned-cheers, .pinned-cheer__hack-box, .moderation-card__actions, div.ember_error_404, .activity-create, .dash-widget, .dash-tabs__item, .notification-center, .notification-center-balloon:after, .notification-center__footer, .notification__container, .notification--read, .friend-requests__empty, .sc-onboarding .sc-onboarding__content {
+  background-color: #202020 !important;
+}
+#right_col, #large_nav .content, #small_nav .content, .following-col .following-list .load-more span, .chat-container, .ember-chat-container, .ember-chat .chat-hidden-overlay, .ember-chat .chatters-view, .ember-chat .chat-header, .chatReplay .noticeWrap, .hostmode-title-container .hostmode-title, .modal-form, .viewall a, .subwindow, .twitch_subwindow_container .card, .kraken-embed .card, .kraken-page .card, .messages #messages_column, .messages div.preview:hover, .cl-container .section-header, .cl-container .cl-section .cl-subheader, .js-new_panel_btn, .js-new_panel_form, .tickets .ticket .benefits, #settings #followers_content .hdr, #new-user-prompt, .st-autocomplete-sidebar, .st-autocomplete-small, .st-autocomplete, .follow-button .notify, .notification-controls .toggle-notification-menu, .upsell-banner, ul#noty_top_layout_container div.noty_bar.noty_type_notice, ul#noty_top_layout_container div.noty_bar.noty_type_alert, .authorize .wrap, .warp, .cn-hosting, .brick, .chat-chip-img, .conversations-list-bottom-bar, .conversations-list .conversations-list-header, .filter-bar__balloon-link--active, .filter-bar__balloon-footer, .conversations-list .conversations-list-item:hover, .player-placeholder, .player-mini__titlebar, .video.item.card > div[style$="background-color: white;"], .be-balloon__link:hover, .be-balloon__link.active, .dash-tabs__item--active, .gu-transit, .notification-center__core, .notification-center__subheader, .button--hollow:hover, .button--hollow:focus, .button--radio:hover, .button--radio:focus, .button--checkbox:hover, .button--checkbox:focus, .view-clip__main--darker, .social-column, .sc-search, .top-nav-drawer__status {
+  background-color: #151515 !important;
+}
+.brick--theme-white, .brick--block, .brick--faint {
+  background-color: #202020 !important;
+}
+body, .archives-contain .more-archives:hover, .activity-create__actions, .activity-card__comments, .button--text:focus, .button--following, .more-clips-card__layout:hover, .ct-spotlight__controls-container, .search-result-view__titlesep.isActive, .more-clips-card__img:after, .button--disabled, .reaction__emote:hover, .top-nav-drawer, .sc-onboarding .sc-onboarding__close {
+  background-color: #171717 !important;
+}
+.messages div.preview, .search-panel__title-bar, .top-nav__logo, .top-nav__menu, .top-nav__drawer-anchor {
+  background-color: #111 !important;
+}
+.messages #message_actions, .messages #send_message_form, .messages #reply_message_form, .cl-container .cl-section, ul.subtabs li.selected, .multi_select li.selector .ms-int:hover, .warp__item--anchor, .warp__item--anchor-beta, .warp__drawer, .special-message, .warp__item--toggled>a, .warp__item>a:hover, .search-result-view__titlesep, .search-panel__filter-wrapper, .table__header, .table__row:nth-child(even), .be-warp__item--hover, .notification--read:hover, .sc-card:hover, .sc-toggle:hover, .sc-item:hover, .top-nav-drawer__item--link:hover {
+  background-color: #1B1B1B !important;
+}
+.channel-link .profile-photo, .ember-chat .moderation-card .interface, .ember-chat .moderation-card img.channel_logo, .messages div.preview .from_to_user .prof, .connect_items .connect-item-info .status, .connect_items .connect-item-info .details-toggle, ul#noty_top_layout_container div.noty_bar .noty_close, .modal__content, .progress-bar--theme-purple, .search-panel__title-back:hover, .nv-clip-content {
+  background-color: #000 !important;
+}
+.tse-scrollbar .drag-handle, .pill, .ember-chat .mentioned, .ember-chat .mentioning, .ct-button--disabled, .ct-button--disabled:hover {
+  background-color: #555 !important;
+}
+#left_col:before {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+.following-col .following-list .load-more:before, .panel-formatting .panel .description hr, .cn-vod-info__divider {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.loading-mask, .loading-screen {
+  background-color: #151515 !important;
+  opacity: 0.5 !important;
+}
+.ember-chat .moderation-card .channel_background_cover {
+  background-color: rgba(32, 32, 32, 0.5) !important;
+}
+.ember-chat .chat-room-list .room .unread-count {
+  background-color: #565656;
+}
+pre {
+  background-color: #050712 !important;
+}
+.fullwidth_light, ul.mobile li, #dash_main #setup_link, .dash-hostmode-contain, .streamkey .warning, .stream-key {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+#dash_main .action .content .data {
+  background-color: #080808 !important;
+}
+.messages #send_message_form .button_group, .messages #reply_message_form .button_group {
+  background: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#222)) !important;
+  background: -moz-linear-gradient(center top , #151515, #222) repeat scroll 0% 0% transparent !important;
+}
+.twitch_subwindow_container, .previewer {
+  background-color: rgba(44, 44, 44, 0.6) !important;
+}
+.chatReplay .loading-spinner-container {
+  background-color: rgba(13, 13, 13, 0.85) !important;
+}
+.what, .player-what, .pill--purple, .ct-color-purple, .search-result-view__titlesep.isActive .pill {
+  background-color: #6441A4 !important;
+}
+.pill--red {
+  background-color: #FC3636 !important;
+}
+.event-list__button--primary:hover, .event-list__button--primary:focus {
+  background-color: #7D5BBE !important;
+}
+.balloon--tooltip, .balloon--tooltip:after {
+  background-color: #0E0C13 !important;
+}
+html, a:hover.warp__logo, body.kraken-embed, .sc-item:hover .sc-item__hover-buttons {
+  background-color: transparent !important;
+}
+.activity-button--selected {
+  background-color: rgba(20, 184, 102, 0.1) !important;
+}
+.notification--unread {
+  background-color: #201C2B !important;
+}
+.notification--unread:hover {
+  background-color: #17141F !important;
+}
+.theme--dark .button--icon-only:hover, .theme--dark .button--icon-only:focus {
+  background-color: rgba(21, 21, 21, 0.2) !important;
+}
+.sc-item:hover .sc-item__hover-gradient {
+  background-image: none !important;
+}
+
+/*** BORDERS ***/
+hr, .header_divider, .dropmenu, .dropmenu .header, .dropmenu .divider, .dropmenu .menu-divider, .ui-menu, .ui-menu .header, .ui-menu .divider, .ui-menu .menu-divider, .ui-multiselect-menu, .ui-multiselect-menu .header, .ui-multiselect-menu .divider, .ui-multiselect-menu .menu-divider, ul.tabs:before, .directory_header .nav:before, ul.tabs_fake:before, .card .text-content .content-header, .card .buttons, .stats-and-actions, .close-hostmode, .following-col .col-header, .following-col .header, .ember-chat .chat-interface, .ember-chat .chat-interface .suggestions, .ember-chat .chat-interface .emoticon-selector .subscribe-message, .ember-chat .chat-messages:before, .ember-chat .chat-room-list, .ember-chat .top-dropdown, .ember-chat .all-rooms-header, .ember-chat .chat-menu .list-header, .archives-contain .list-video, .archives-contain .more-archives, .whatisthis .actions .divider, .messages .divider, .items-grid .section_header #filter-contain .dropmenu .label, .items-grid .section_header #filter-contain .ui-menu .label, .items-grid .section_header #filter-contain .ui-multiselect-menu .label, ul.mobile li, #dash_main #stream-config-status .status-header, .dash-broadcast-contain, #dash_main #stats, .dash-hostmode-contain, .dash-hostmode-list-contain, .dash-chat-column, .streamkey .warning, .connect_items, .connect_items .connect-item-details, .connect_items .connect-item-details-legal, .st-autocomplete-sidebar .label, .st-autocomplete-small .label, .st-autocomplete .label, .st-autocomplete-sidebar .all, .st-autocomplete-small .all, .st-autocomplete .all, .kraken-embed .card .buttons, .kraken-page .card .buttons, .twitch_subwindow_container .card .buttons, .brick, .info_block, .ember-chat .chat-interface .chat-rules, .player-menu__section, .more-clips, .balloon__stroke, .filter-bar__balloon-footer, .subscription-modal__bar, .subscription-modal__right, .conversations-list .conversations-list-item, .conversations-list .search-divider, .conversation-settings-menu, .conversation-settings-menu .options-divider, .emoticon-selector .emoticon-selector__tabs .emoticon-selector__tab:hover, .emoticon-selector .emoticon-selector-box .all-emotes .emote-set, .activity-card, .activity-button, .ct-crumb:after, .border-b, .border-t, .search-panel--slide, .search-panel__title-bar, .search-panel__title-back, .search-panel--fly, .search-panel--fly:before, .ce-clip-center .ce-clip-center__pre-control, .view-clip__bc, .view-clip__actions, .view-clip__smallTitle>div, .cn-metabar__more, .sticky-message--pinned-cheers, .dash-tabs__item, .notification-center__header, .notification-center__footer, .notification-center__subheader, .notification__container {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+input.text, .input--text, .recurly input, input.string, select, textarea, .dropdown, .dropdown_static, #flyout .content, .balloon, .activity-create, .pika-input {
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+#left_close, #right_close, .card-carousel__arrow:before {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+}
+input.text:focus, .input--text:focus, .recurly input:focus, input.string:focus, select:focus, textarea:focus, .app-main.theatre textarea:focus, .active_dropdown, .pika-input:focus {
+  border-color: rgba(185, 155, 235, 0.75) !important;
+}
+.directory_header .nav li > a:hover, ul.tabs_fake li > a:hover, .ember-chat .chat-interface .emoticon-selector .tabs .tab:hover, ul.tabs li > button:hover, .directory_header .nav li > button:hover, ul.tabs_fake li > button:hover {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+ul.tabs li > a.active:nth-child(n), .directory_header .nav li > a.active:nth-child(n), ul.tabs_fake li > a.active:nth-child(n), ul.tabs li.selected a:nth-child(n), .directory_header .nav li.selected a:nth-child(n), ul.tabs_fake li.selected a:nth-child(n), ul.tabs li.selected button, .directory_header .nav li.selected button, ul.tabs_fake li.selected a, ul.tabs_fake li.selected button {
+  border-color: #E0E0E0 !important;
+}
+.emoticon-selector .emoticon-selector__tabs .emoticon-selector__tab.active {
+  border-color: #E6E6E0;
+}
+.modal-form .header, .modal-form .buttons, .multi_select li.hdr, .multi_select li.selector form, .multi_select li.selector > label, .multi_select li.selector .ms-int, ul.subtabs, #dash_main .action, .emoticon-selector .emoticon-selector__tabs, .activity-meta-divider::before, .list-load-more, .conversations-list-bottom-bar, .conversations-list, .conversations-list .conversations-list-header, .ct-bar__item, .dash-widget, .dash-widget__header, .dash-widget__divider, .sc-search {
+  border-color: #333 !important;
+}
+.activity-meta-divider:before {
+  border-bottom-color: transparent !important;
+  border-right-color: transparent !important;
+}
+.cn-tabs__item>a:hover:after, .cn-tabs__item--withseparator:after {
+  border-color: #4D4D4D !important;
+}
+.ember-chat .chat-messages .whisper-line.whisper-outgoing, .activity-button:hover {
+  border-color: #565656 !important;
+}
+.filter-nav:before, .nav {
+  border-color: transparent #000;
+}
+.streams .stream .thumb .boxart, .videos .video .thumb .boxart, .filter-list .filter-item span, .filter-nav.goleft, .filter-nav.goright, .card__boxpin, .cn-bar__avatar-wrap {
+  border-color: #202020 !important;
+}
+.following-games-modal .subheader, .messages div.message, .messages div.preview .from_to_user .prof, .cl-container .section-header, .cl-container fieldset, .connect_items .connect-item-details, .ember-chat .chat-interface .emoticon-selector .emoticon-selector-box .all-emotes .emote-set {
+  border-color: #212121 !important;
+}
+.dash-tabs__item--active .dash-tabs__label:after {
+  border-color: #151515 !important;
+}
+.messages #send_message_form #bottom_buttons, .messages #reply_message_form #bottom_buttons {
+  box-shadow: 0px -1px 0px #333 !important;
+}
+.messages #send_message_form #top_buttons, .messages #reply_message_form #top_buttons, .messages #send_message_form #bottom_buttons, .messages #reply_message_form #bottom_buttons {
+  border-top-color: #151515 !important;
+  border-bottom-color: #333 !important;
+}
+.messages #send_message_form, .messages #reply_message_form {
+  border-top-color: #333 !important;
+}
+.messages #message_actions, .messages div.preview {
+  border-bottom-color: #252525 !important;
+}
+.messages div.preview {
+  border-left-color: #0D0D0D !important;
+}
+.messages div.preview.unread, .chat-container.dark .chat-line .indicator, .app-main.theatre .chat-container .chat-line .indicator, .chat-container.force-dark .chat-line .indicator, .ember-chat-container.dark .chat-line .indicator, .app-main.theatre .ember-chat-container .chat-line .indicator, .ember-chat-container.force-dark .chat-line .indicator, .brick--marked {
+  border-left-color: #6441A4 !important;
+}
+.chat-container {
+  border-left: none !important;
+}
+.messages div.preview .from_to_user .prof {
+  box-shadow: 0px 1px 0px #000 !important;
+}
+.tickets .ticket .benefits {
+  border-color: rgba(0, 0, 0, 0.75) !important;
+}
+.ember-chat .chat-settings .chat-colors .chat-colors-swatch:hover {
+  box-shadow: 0px 0px 0px 1px #000 inset !important;
+}
+.ember-chat .chat-settings .chat-colors .chat-colors-swatch.selected {
+  box-shadow: 0px 0px 0px 3px #444, 0px 0px 0px 1px #000 inset !important;
+}
+.js-new_panel_btn, .js-new_panel_form {
+  border-color: #444 !important;
+}
+.ember-chat .moderation-card img.channel_logo, .theatre .conversations-list-bottom-bar {
+  border-color: #000 !important;
+}
+.search-panel--fly:after {
+  border-color: #111 !important;
+}
+.search-panel--fly:before, .search-panel--fly:after {
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+}
+#left_close, #right_close {
+  border-color: #FFF !important;
+}
+#left_close:before, #right_close.closed:before {
+  border-color: transparent #FFF transparent transparent !important;
+}
+#left_close.closed:before, #right_close:before {
+  border-color: transparent transparent transparent #FFF !important;
+}
+.button.drop:after, .dropdown:before, .dropdown_static:before, .follow-button .notify:before, .notification-controls .toggle-notification-menu::before {
+  border-color: rgba(255, 255, 255, 0.35) transparent transparent !important;
+}
+.darken .button.drop:after, .chat-container.dark .chat-interface .button.drop:after, .ember-chat-container.dark .chat-interface .button.drop:after, .chat-container.dark .chat-header .button.drop:after, .ember-chat-container.dark .chat-header .button.drop:after, #content .turbo_landing .turbo_banner .battery_action .button.drop:after, #content .turbo_landing .benefits .button.drop:after {
+  border-color: rgba(255, 255, 255, 0.85) transparent transparent !important;
+}
+.close-hostmode a:before, .close-hostmode a:after {
+  border-color: transparent transparent rgba(255, 255, 255, 0.2) !important;
+}
+.dash-hostmode-status a:before, .dash-hostmode-status a:after {
+  border-color: rgba(255, 255, 255, 0.2) transparent transparent !important;
+}
+.hostmode-title-container .hostmode-title {
+  box-shadow: 0px 0px 0px 1px #3B3B3B inset !important;
+}
+.app-main.theatre .chat-header {
+  box-shadow: 0px -1px 0px 0px #000 inset !important;
+}
+.app-main.theatre textarea {
+  border-color: #000 !important;
+}
+.ember-chat .chat-header, .cn-chat-replay-header, .sc-header, .sc-collapsed-header {
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.2) inset !important;
+}
+.tse-scrollbar .drag-handle {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.25) !important;
+}
+.whatisthis {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.25) !important;
+}
+.whatisthis:before {
+  border-color: transparent transparent #202020 !important;
+}
+.whatisthis:after {
+  border-color: transparent transparent rgba(255, 255, 255, 0.25) !important;
+}
+.whatisthis.anchor-bottom:before, .following-hint .bubble:before {
+  border-color: #202020 transparent transparent !important;
+}
+.whatisthis.anchor-bottom:after {
+  border-color: rgba(255, 255, 255, 0.2) transparent transparent !important;
+}
+#flyout .point:before {
+  border-right-color: #202020 !important;
+}
+#flyout .point:after {
+  border-right-color: rgba(255, 255, 255, 0.25) !important;
+}
+#site_header {
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.07), 0px 0px 0px 1px rgba(223, 223, 223, 0.2) !important;
+}
+#carousel .nav ul li.active a:before {
+  box-shadow: 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px #FFF inset !important;
+}
+#carousel .nav ul li a:before {
+  box-shadow: 0px 0px 0px 2px #000 inset, 0px 0px 0px 3px #555 inset !important;
+}
+pre {
+  border-color: #6441A5 !important;
+  box-shadow: 0px 0px 0px 1px #666 inset !important;
+}
+.fullwidth_light {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.2), 0px 0px 0px -1px rgba(255, 255, 255, 0.2) !important;
+}
+#noty_bottomCenter_layout_container>.noty_bar.error .noty_message, #noty_bottomCenter_layout_container>.noty_bar.notice .noty_message, .st-autocomplete-sidebar, .st-autocomplete-small, .st-autocomplete, .sc-onboarding {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.2) !important;
+}
+.sc-onboarding .sc-onboarding__close {
+  box-shadow: -1px 0px 0px rgba(255, 255, 255, 0.2) inset !important;
+}
+.dropmenu, .ui-menu, .ui-multiselect-menu, .activity-card {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.2) inset !important;
+}
+.chat-container, .ember-chat-container, .theatre .emoticon-selector .emoticon-selector-box, .dark .emoticon-selector .emoticon-selector-box, .app-main.theatre .chat-container .emoticon-selector .emoticon-selector-box, .app-main.theatre .ember-chat-container .emoticon-selector .emoticon-selector-box, .force-dark .emoticon-selector .emoticon-selector-box, .clip-wrap, .notification-center__core-end, .social-column, .sc-card:hover {
+  box-shadow: none !important;
+}
+.warp__drawer {
+  box-shadow: 0px -1px 0px #202020 !important;
+}
+.button--text.button--dropmenu::after, .button--icon-only.button--dropmenu::after {
+  border-top-color: #474A3F;
+}
+.button--hollow.button--dropmenu:after, .button--radio.button--dropmenu:after, .button--checkbox.button--dropmenu:after {
+  border-top-color: #B9A3E3 !important;
+}
+.button--hollow.button--dropmenu:hover:after, .button--hollow.button--dropmenu:focus:after, .button--radio.button--dropmenu:hover:after, .button--radio.button--dropmenu:focus:after, .button--checkbox.button--dropmenu:hover:after, .button--checkbox.button--dropmenu:focus:after {
+  border-top-color: #BBB !important;
+}
+.player-menu__menu::after, .bits-card:after {
+  border-top-color: #202020 !important;
+}
+.balloon {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(255, 255, 255, .05) !important;
+}
+.balloon--left::after {
+  box-shadow: 1px -1px 0px rgba(255, 255, 255, 0.2) !important;
+}
+.balloon--right::after {
+  box-shadow: -1px 1px 0px rgba(255, 255, 255, 0.2) !important;
+}
+.balloon--up::after {
+  box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2) !important;
+}
+.balloon--down::after {
+  box-shadow: -1px -1px 0px rgba(255, 255, 255, 0.2) !important;
+}
+.balloon--tooltip, .balloon--tooltip:after, .chat-line .balloon--down::after, .authorize .wrap {
+  border: none !important;
+  box-shadow: none !important;
+}
+.be-balloon {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5) !important;
+}
+.be-hotspot:after {
+  border: 2px solid #202020 !important;
+}
+.leaf {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.25) inset !important;
+}
+.leaf:focus {
+  box-shadow: 0px 0px 0px 1px rgba(185, 155, 235, 0.75) inset !important;
+}
+.activity-create__actions {
+  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.25) !important;
+}
+.activity-meta-divider {
+  box-shadow: 0px -1px 0px #333 inset !important;
+}
+.activity-button--selected, .activity-button--selected:hover {
+  border-color: #14B866 !important;
+}
+.chat-chip {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.85) !important;
+}
+.button--hollow, .button--radio, .button--checkbox, .pl-button--checkbox, .pl-button--hollow, .pl-button--radio, .theme--light .pl-button--checkbox, .theme--light .pl-button--hollow, .theme--light .pl-button--radio, .cn-hosting--bottom .cn-hosting__options {
+  box-shadow: 0px 0px 0px 1px rgba(185, 163, 227, 0.5) inset;
+}
+.button--radio:nth-of-type(n+2), .button--checkbox:nth-of-type(n+2) {
+  box-shadow: inset -1px 0px 0px rgba(185, 163, 227, 0.5), inset 0px 1px 0px rgba(185, 163, 227, 0.5), inset 0px -1px 0px rgba(185, 163, 227, 0.5) !important;
+}
+.button:focus, .pl-button:focus {
+  box-shadow: 0px 0px 6px 0px #7d5bbe, 0px 0px 0px 1px rgba(185, 155, 235, 0.5) inset !important;
+}
+.tabs, .tw-tabs {
+  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.2) inset !important;
+}
+.tabs>.tab:hover, .tabs>li:hover, .tabs__item:hover, .tabs__item--active, .tabs__item.active, .tabs__item.selected, .tabs>li.selected, .tabs>li>a.active, .dash-tabs__item:hover, .tw-tabs__item>a.active, .tw-tabs__item>button.active, .tw-tabs__item>a:hover, .tw-tabs__item>button:hover {
+  box-shadow: 0px -1px 0px #B9A3E3 inset;
+}
+.tabs>.tab>a:focus, .tabs>li>a:focus, .tabs__item>a:focus, .tw-tabs__item>a:focus, .tw-tabs__item>button:focus {
+  box-shadow: 0px -2px 0px #B9A3E3 inset, 0px 4px 6px -4px #7D5BBE;
+}
+.tabs__item {
+  box-shadow: 0px -1px 0px #4D4D4D inset;
+}
+.cn-bar {
+  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 1px rgba(0, 0, 0, 0.065);
+}
+.cn-tabs__item>a.active:after {
+  border-color: #B9A3E3 !important;
+}
+.ct-bar {
+  box-shadow: 0px 2px 6px -2px rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.05), 0px -1px 0px rgba(255, 255, 255, 0.05) !important;
+}
+.ct-spotlight__controls-container {
+  box-shadow: -1px 0px 0px rgba(255, 255, 255, 0.2) inset !important;
+}
+.ct-spotlight__section {
+  border-color: #4D4D4D !important;
+}
+.ct-crumb:after {
+  box-shadow: 12px -6px 24px -8px rgba(100, 100, 100, 0.1) !important;
+}
+.form__input[type=text], .form__input[type=email], .form__input[type=password], .form__input[type=search], textarea.form__input, select.form__input, .pl-form__input[type=text], select.pl-form__input, textarea.pl-form__input, .video-stats .form__input[type=text], .video-stats .form__input[type=email], .video-stats .form__input[type=password], .video-stats .form__input[type=search], .video-stats textarea.form__input, .theme--dark .form__input[type=text], .theme--dark .form__input[type=email], .theme--dark .form__input[type=password], .theme--dark .form__input[type=search], .theme--dark textarea.form__input, .theme--dark select.form__input, .button--following, .theme--light .pl-form__input[type=email], .theme--light .pl-form__input[type=password], .theme--light .pl-form__input[type=search], .theme--light .pl-form__input[type=text], .theme--light select.pl-form__input, .theme--light textarea.pl-form__input, .form__input {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.2) inset;
+}
+.form__input[type=text]:focus, .form__input[type=email]:focus, .form__input[type=password]:focus, .form__input[type=search]:focus, textarea.form__input:focus, select.form__input:focus, .form__input:focus, .chat-container.dark input.text:focus, .chat-container.dark input.countries-input:focus, .chat-container.dark textarea:focus, .ember-chat-container.dark input.text:focus, .ember-chat-container.dark input.countries-input:focus, .ember-chat-container.dark textarea:focus {
+  box-shadow: rgba(185, 155, 235, 0.75) 0px 0px 0px 1px inset, rgba(185, 155, 235, 0.75) 0px 0px 6px -2px;
+}
+.form__input, .form__input:focus, .brick.metadata-box, .ui-draggable-dragging {
+  border-color: transparent !important;
+}
+.conversation-window .convoHeader {
+  box-shadow: 0px 0px 0px 1px #333 inset, 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.conversation-window {
+  box-shadow: 0px 0px 0px 1px #333 inset, 0px 15px 45px 0px rgba(0, 0, 0, 0.19);
+}
+.conversation-window.has-focus {
+  box-shadow: 0px 0px 0px 1px #333 inset, 0px 25px 35px 0px rgba(0, 0, 0, 0.5);
+}
+.conversation-settings-menu:before {
+  border-bottom-color: #4D4D4D !important;
+}
+.conversation-settings-menu:after {
+  border-bottom-color: #202020 !important;
+}
+.notification {
+  border-bottom-color: rgba(35, 35, 35, 0.85) !important;
+}
+.video-stats__table-title {
+  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.2) inset !important;
+}
+.video-stats__lifetime-stat__section {
+  box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.2) inset !important;
+}
+.table__cell {
+  border-color: #080808 !important;
+}
+.table {
+  border-left: 1px solid #080808 !important;
+  border-right: 1px solid #080808 !important;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.8) !important;
+}
+.table__header {
+  border-top: 1px solid #080808 !important;
+}
+.loading-spinner {
+  border-top-color: rgba(255, 255, 255, 0.18) !important;
+  border-right-color: rgba(255, 255, 255, 0.18) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.18) !important;
+  border-left-color: #999 !important;
+}
+.dash-tabs__label:focus {
+  box-shadow: 0px -2px 0px #7D5BBE inset, 0 4px 6px -4px #B9A3E3 !important;
+}
+.activity-card__comments {
+  box-shadow: 0px -1px 0px #4D4D4D inset, -1px 0px 0px #4D4D4D inset, 1px 0px 0px #4D4D4D inset !important;
+}
+
+/*** TEXT ***/
+body, code, samp, kbd, label, .dropmenu, .ui-menu, .ui-multiselect-menu, .items-grid .meta p a, .items-grid .meta .title, .card__title a, .archives-contain .list-video .meta .title, .following-col .following-list .channel a, .button-group li a.active, .ember-chat .mentioning, #flyout .content, .search_input, #sidebar_query_small, #dash_main #controls_column .section_header, .cl-subheader, .chat-header, .chat-container, .ember-chat-container, .theatre .conversations-list .conversations-list-header, .ember-chat .chat-interface .chat-rules, .ct-crumb__label, .ct-bar__item a, .ct-type-4, .search-panel__title, .be-balloon__link, .notification-center__header-text, .notification__content-msg, .notification-center__subheader-text, .clip-chat-message, .js-chat_input.chat_text_input {
+  color: #C4C4C4 !important;
+}
+a, .dropmenu.menu-like .dropmenu_action, .menu-like.ui-menu .dropmenu_action, .menu-like.ui-multiselect-menu .dropmenu_action, .ui-menu .dropmenu_action, .ui-menu.ui-multiselect-menu .dropmenu_action, .ember-chat .chat-room-list .room p.room-title, .archives-contain .list-video .meta .info p.broadcaster, .viewall a .text span:first-child, .items-grid .section_header #filter-contain .dropmenu .dropmenu_action.active, .items-grid .section_header #filter-contain .ui-menu .dropmenu_action.active, .items-grid .section_header #filter-contain .ui-multiselect-menu .dropmenu_action.active, .items-grid .item .title a:hover, .items-grid .item .info a:hover, .items-grid .item a:hover .title, .card__info a:hover, .card__title a:hover, .card a:hover .card__title, #channel .player-column #broadcast-meta .info .edit-link span, .st-autocomplete-sidebar .list ul .result p, .st-autocomplete-small .list ul .result p, .st-autocomplete .list ul .result p, .st-autocomplete-sidebar .all p, .st-autocomplete-small .all p, .st-autocomplete .all p, .directory_header .nav li > a, ul.tabs li > button, .directory_header .nav li > button, ul.tabs_fake li > a, ul.tabs_fake li > button, .balloon .balloon__link, .player a.player-text-link--no-color:hover, .cn-metabar .cn-metabar__title a, .cn-tabs__item>a.active, .ct-bar__item:hover a, .search-result-view__titlesep.isActive .search-result-view__title-more, .search-result-view__item .card__info span, .search-result-view__item .card__title, .search-result-view__titlesep.isActive, .video-stats__lifetime-stat__value, .tw-tabs__item>button {
+  color: #B9A3E3 !important;
+}
+#large_nav .content .nav_section a:not(.button), .items-grid .meta .info, .items-grid .meta .info a, .card__info, .card__info a, .close-hostmode a, .dash-hostmode-status a, .cn-metabar__viewcount {
+  color: #8C8C8C !important;
+}
+.messages div.preview .message_body a {
+  color: #6C6C6C !important;
+}
+.messages .message_action.block {
+  color: #C1C1C1 !important;
+}
+.button, .follow-button:not(.ember-follow) .follow, #large_nav .game_filter.selected a:not(.button), .dropmenu.menu-like .dropmenu_action.active, .menu-like.ui-menu .dropmenu_action.active, .menu-like.ui-multiselect-menu .dropmenu_action.active, .dropmenu.menu-like .dropmenu_action.ui-state-hover, .menu-like.ui-menu .dropmenu_action.ui-state-hover, .menu-like.ui-multiselect-menu .dropmenu_action.ui-state-hover, .dropmenu.menu-like .dropmenu_action.ui-state-active, .menu-like.ui-menu .dropmenu_action.ui-state-active, .menu-like.ui-multiselect-menu .dropmenu_action.ui-state-active, .dropmenu.menu-like .dropmenu_action:hover, .menu-like.ui-menu .dropmenu_action:hover, .menu-like.ui-multiselect-menu .dropmenu_action:hover, .dropmenu.menu-like .ui-menu-item a.active, .menu-like.ui-menu .ui-menu-item a.active, .menu-like.ui-multiselect-menu .ui-menu-item a.active, .dropmenu.menu-like .ui-menu-item a.ui-state-hover, .menu-like.ui-menu .ui-menu-item a.ui-state-hover, .menu-like.ui-multiselect-menu .ui-menu-item a.ui-state-hover, .dropmenu.menu-like .ui-menu-item a.ui-state-active, .menu-like.ui-menu .ui-menu-item a.ui-state-active, .menu-like.ui-multiselect-menu .ui-menu-item a.ui-state-active, .dropmenu.menu-like .ui-menu-item a:hover, .menu-like.ui-menu .ui-menu-item a:hover, .menu-like.ui-multiselect-menu .ui-menu-item a:hover, .ui-menu .dropmenu_action.active, .ui-menu.ui-multiselect-menu .dropmenu_action.active, .ui-menu .dropmenu_action.ui-state-hover, .ui-menu.ui-multiselect-menu .dropmenu_action.ui-state-hover, .ui-menu .dropmenu_action.ui-state-active, .ui-menu.ui-multiselect-menu .dropmenu_action.ui-state-active, .ui-menu .dropmenu_action:hover, .ui-menu.ui-multiselect-menu .dropmenu_action:hover, .ui-menu .ui-menu-item a.active, .ui-menu.ui-multiselect-menu .ui-menu-item a.active, .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu.ui-multiselect-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active, .ui-menu.ui-multiselect-menu .ui-menu-item a.ui-state-active, .ui-menu .ui-menu-item a:hover, .ui-menu.ui-multiselect-menu .ui-menu-item a:hover, #site_footer a, .hostmode-title-container .hostmode-title .what, .ember-chat .chat-room-list .room:hover p.room-title, .ember-chat .moderation-card h3.name a, #carousel .items h2 a, .items-grid .section_header #filter-contain .dropmenu .dropmenu_action.active:hover, .items-grid .section_header #filter-contain .ui-menu .dropmenu_action.active:hover, .items-grid .section_header #filter-contain .ui-multiselect-menu .dropmenu_action.active:hover, .filter-list .filter-item, #channel .player-overlay-default .overlay-button, .st-autocomplete-sidebar .list ul .result.active p, .st-autocomplete-sidebar .list ul .result.active span, .st-autocomplete-small .list ul .result.active p, .st-autocomplete-small .list ul .result.active span, .st-autocomplete .list ul .result.active p, .st-autocomplete .list ul .result.active span, .st-autocomplete-sidebar .all p.active, .st-autocomplete-small .all p.active, .st-autocomplete .all p.active, .ember-follow.follow-button:not(.is-following) a, .switch, .switch:hover, .what, .directory_header .nav li > a:hover, ul.tabs li > button:hover, .directory_header .nav li > button:hover, ul.tabs_fake li > a:hover, ul.tabs_fake li > button:hover, .profile-card__content, .profile-card--show-actions .profile-card__content, .profile-card:hover .profile-card__content, .warp__item a:hover, .ember-chat .mentioned, .ember-chat .moderation-card .name a, .player-content-button, .player-product .purchase_button, .button--following:hover, .player-what, .player-switch, .emoticon-selector .emoticon-selector__tabs .emoticon-selector__tab.active, .tabs__item--active>a, .cn-bar__displayname, .cn-tabs__item>a, .card a.isActive .card__title, .search-result-view__item--live .card__title, .search-result-view__item--live .card__info, .search-result-view__item .isActive .card__title, .search-result-view__item .isActive .card__info, .search-result-view__item .isActive .card__info span, .cm-breadcrumb:hover, .cl-white, .moderation-card__name a, .sticky-message a, .be-balloon__link:hover, .be-balloon__link.active, .top-nav__nav-link:hover, .clip-userinfo__name a, .clip-userinfo__title a, .theme--dark .card a:hover .card__title, .sc-card:hover .sc-card__title {
+  color: #FFF !important;
+}
+.button--text, .button--hollow, .button--radio, .button--checkbox, .pl-button--checkbox, .pl-button--hollow, .pl-button--radio, .emoticon-selector .emoticon-selector__tabs, .cn-tabs__item>a:hover {
+  color: #B9A3E3 !important;
+}
+.event-list__button--primary, .event-list__button--primary:hover, .event-list__button--primary:focus {
+  color: #FFF !important;
+}
+.panel-formatting .panel, .js-new_panel_form label, .following-none .section-content ol .information .message, #main_col .content .archive_info p, #main_col .content .archive_info time, .balloon, .balloon__title, .ct-type-grey-light, .ct-spotlight__type-2, .search-result-view__titlesep, .search-result-view__titlesep .search-result-view__title-more, .table__zero-body, .sub-text, .broadcaster-info__live, .video-stats__table-title, .twitch-purple-7, .button--hollow:hover, .button--hollow:focus, .button--radio:hover, .button--radio:focus, .button--checkbox:hover, .button--checkbox:focus, .view-clip__title, .top-nav__nav-link {
+  color: #BBB !important;
+}
+.app_title {
+  color: #CCC !important;
+}
+.button--following, #channel .player-column #broadcast-meta .info .title, #main_col .content #broadcast_meta .info .title, #main_col .content #broadcast_meta .info .title_over h1, #main_col .content #broadcast_meta .info .title_over .title, #main_col .content #broadcast_meta #channel .player-column #broadcast-meta .info .title_over .title, #channel .player-column #broadcast-meta #main_col .content #broadcast_meta .info .title_over .title, #new-user-prompt .message .title, #channel-prompt .message .title, .upsell-banner .message .title, .no-login-contain h3, .panel-formatting .panel h3, .modal-form .header, #noty_bottomCenter_layout_container>.noty_bar.error .noty_message, #noty_bottomCenter_layout_container>.noty_bar.notice .noty_message, .player-menu__menu, .player-menu__header, .button--text:hover, .warp__item a, .modal-title, .card__title, .cn-hosting a .card__title, .cn-hosting a:hover .card__title, .activity-meta__name, .ct-banner__name, .ct-banner__name a, .ct-type-2, .ct-type-3, .ct-spotlight__type-1, .table__cell, .nv-broadcaster-info__meta-container a:hover, .dash-widget, .dash-brick, .dash-tabs__item--active .dash-tabs__label, .view-clip__smallTitle, .top-nav__nav-link.active, .top-nav-drawer__item a {
+  color: #DDD !important;
+}
+.form__input[type=text], .form__input[type=email], .form__input[type=password], .form__input[type=search], textarea.form__input, select.form__input {
+  color: #DAD8DE !important;
+}
+#channel .player-column #broadcast-meta .info .channel, #main_col .content #broadcast_meta .info .channel, .channel-stats .stat, input.text, .leaf, .recurly input, input.string, select, textarea, .ember-chat .chat-messages .chat-line.admin .message, .ember-chat .chat-messages .chat-line.notification .message, #broadcast p, #settings div.boolean label.boolean, .section .sub, #dash_main #stream-config-status, .special-message .system-msg, .modal-body-text, .activity-meta, .activity-meta__stamp, .activity-button, .activity-comment__meta .inherit-color, .list-load-more, .conversation-window .conversation-system-message, .form__input {
+  color: #999 !important;
+}
+#large_nav .content .nav_section a:hover:not(.button) {
+  color: #EEE !important;
+}
+#large_nav .content #footer .links_group a {
+  color: #727272 !important;
+}
+.archives-contain .list-video .meta .info, .following-col .following-list .load-more {
+  color: #737373 !important;
+}
+ul.tabs li > a.active, .directory_header .nav li > a.active, ul.tabs_fake li > a.active, ul.tabs li.selected a, .directory_header .nav li.selected a, ul.tabs_fake li.selected a, .directory_header .nav li > a:hover, ul.tabs_fake li > a:hover, ul.tabs li.selected button, .directory_header .nav li.selected button, ul.tabs_fake li.selected a, ul.tabs_fake li.selected button, .tw-tabs__item>a.active, .tw-tabs__item>button.active {
+  color: #E0E0E0 !important;
+}
+.emoticon-selector .tabs .tab.active {
+  color: #E6E6E0 !important;
+}
+#dash_main #stream-config-status .status-header .last-checked {
+  color: #555 !important;
+}
+ul.subtabs li.selected a, #main_col .content .archive_info .archive_desc .empty, .empty-grid, .friend-requests__empty {
+  color: #666 !important;
+}
+.activity-button--selected, .activity-button--selected:hover, .activity-comment__reaction--selected {
+  color: #14B866 !important;
+}
+.player-text-link--no-color {
+  color: inherit !important;
+}
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/*** IMGS ***/
+.button.glyph svg path, .button.glyph-only svg path, .ember-chat .chat-menu-button-container svg path, #header_logo svg path, .svg-logo_twitch {
+  fill: #A68ED2 !important;
+}
+.button figure svg, .button figure img, .button--icon-only figure svg, .button--following svg, .video-stats .icon--purple svg, .previewer__close, .clips-button svg, .icon--purple svg {
+  fill: #B19DD8 !important;
+}
+.button.glyph-only:hover svg path, .ember-chat .chat-menu-button-container:hover svg path, .hostmode-title-container .hostmode-title .host-profile-image svg path, .noty_close > .svg-close_small, .warp__logo svg, .button--hollow:hover .svg-heart, .button--icon figure svg {
+  fill: #FFF !important;
+}
+.button--icon-only:hover figure svg {
+  fill: #E2DBF0 !important;
+}
+.following .follow svg path, .is-following.ember-follow.follow-button svg, .button__status .svg-heart, .button--status:hover .svg-heart, .button__status .svg-unheart, .button--status:hover .svg-unheart {
+  fill: #202020 !important;
+}
+.channel-stats .stat svg path, #dash_main #stats .stat svg path {
+  fill: rgba(255, 255, 255, 0.35) !important;
+}
+.channel-stats .live-count svg path, #dash_main #stats .stat.channel-viewer-count svg path {
+  fill: #F00 !important;
+}
+.following-col .col-header .search-contain .search .search-button svg path {
+  fill: rgba(255, 255, 255, 0.25) !important;
+}
+.emoticon-selector-toggle svg path, .activity-button svg, .bits-toggle path {
+  fill: rgba(255, 255, 255, 0.2) !important;
+}
+#channel .player-column #broadcast-meta .info .edit-link svg path, .following-col .col-header .search-contain .search .search-button:hover svg path, .emoticon-selector-toggle:hover svg path, .activity-button:hover svg, .bits-toggle:hover path {
+  fill: rgba(255, 255, 255, 0.5) !important;
+}
+.emoticon-selector-toggle.toggled svg path, .bits-toggle.toggled path, .button--icon.button--hollow figure svg {
+  fill: #B19DD8 !important;
+}
+.notification-center__icon--left svg {
+  fill: #98959E !important;
+}
+.notification-center__icon:hover svg {
+  fill: #B8B5C0 !important;
+  opacity: 1 !important;
+}
+.notification__dismiss svg {
+  fill: #666 !important;
+}
+.notification__dismiss:hover svg {
+  fill: #898989 !important;
+}
+.message_action.block {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAs0lEQVR42q2SwQqEMAxEhdwCPRU8FDwJCx6EgP//bTUsE9INKR7cwgMdM8MUs/TeX/G/AD9fjZRV2ZWPsillCScGmFgVUa4IwigPgBmDgmeCzjBfyuG6B1htARSqcmjVsoAVH+vMjFanIlnAjiGamaFteOffANxxana9QSshwJNTM87YNAaU4VcJiGa2mfw34hqAE/Nh9WcBNAyduFaz2qA+bSLBJMkWlsdVTmqXuFgx4BU3D5xaq6c6ANwAAAAASUVORK5CYII=") !important;
+}
+.message_action.delete {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXklEQVQ4y2P4//8/AyWYYfAYgAyAfGUgNkbCUmjyWF0ghqYJFxbGZYAUkQZI4fQCkFZDUoRMw1ynhtMLaAbw4qBHDSDBAF00WhNKKxMyQACIDXDEP0icC19KHJjMBAALasrYcQA+LAAAAABJRU5ErkJggg==") !important;
+}
+img[src*="g16_trash-00000020"] {
+  visibility: hidden !important;
+}
+
+/*** CHAT FIXES ***/
+@keyframes unread_message_count_background {
+  0% {
+    background: #A68ED2;
+  }
+  100% {
+    background-color: #565656;
+  }
+}
+@-webkit-keyframes unread_message_count_background {
+  0% {
+    background: #A68ED2;
+  }
+  100% {
+    background-color: #565656;
+  }
+}
+.from[style="color:blue"], .from[style="color:#0000FF"], .message[style="color:#0000FF"], .clip-chat-username[style="color: rgb(0, 0, 255);"] {
+  color: #0060FF !important;
+}
+.from[style="color:black"], .from[style="color:#000000"], .message[style="color:#000000"], .clip-chat-username[style="color: rgb(0, 0, 0);"] {
+  color: #FFF !important;
+}
+.from[style="color:#191970"], .message[style="color:#191970"] {
+  color: #E6E68E !important;
+}
+.chat-colors-swatch[style="background-color:#0000FF;"] {
+  background-color: #0060FF !important;
+}
+.ember-chat .loading-mask {
+  bottom: 0px !important;
+}
+.ember-chat .badges .staff {
+  background-color: #322052 !important;
+}
+/* add black stroke to names, thanks speedrun.com */
+.from, .clip-chat-username {
+  text-shadow: 0px -1px #000, 1px -1px #000, 1px 0px #000, 1px 1px #000, 0px 1px #000, -1px 1px #000, -1px 0px #000, -1px -1px #000 !important;
+}
+.message, .clip-chat-message {
+  text-shadow: 1px 1px #080808 !important;
+}
+
+/*** OLD PAGES ***/
+/* team page */
+#stats_and_description, .user_list .user, .mixed_list .user, .video_list .video, .mixed_list .video {
+  border-color: #333 !important;
+}
+.member {
+  box-shadow: 0px -1px 0px #333, 0px 1px 0px rgba(32, 32, 32, 0.65) !important;
+  transition: none !important;
+}
+.member.live {
+  background-color: #A68ED2;
+  transition: all 0.2s ease-in-out 0s !important;
+}
+.member.js-playing {
+  background-color: #6441A5 !important;
+  background: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)) repeat scroll 0% 0% #6441A5 !important;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 1px rgba(32, 32, 32, 0.35) !important;
+}
+.member.js-playing + div {
+  box-shadow: 0px 1px 0px rgba(32, 32, 32, 0.65) !important;
+}
+.member:hover {
+  background-color: #202020 !important;
+}
+.member.js-playing:hover, .member.js-playing:hover p {
+  background-color: #6441A5 !important;
+  background: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)) repeat scroll 0% 0% #6441A5 !important;
+}
+.member a, #team_member_list .page_links em {
+  color: #FFF !important;
+}
+.member .channel_count {
+  color: #DDD !important;
+}
+.video_list .video .title a, .mixed_list .video .title a, .user_list .user .title a, .mixed_list .user .title a {
+  color: #C4C4C4 !important;
+}
+.video_list.external .video .cap_and_profile .profile, .mixed_list.external .video .cap_and_profile .profile {
+  background-color: #000 !important;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.35) !important;
+}
+/* icons */
+#stats_and_description .stat#views_count, .video_list .video .video_stats .views_count, .mixed_list .video .video_stats .views_count {
+  background-image: url("http://www-cdn.jtvnw.net/images/xarth/g/g18_eye-FFFFFF80.png") !important;
+}
+#stats_and_description .stat#followers_count, .user_list .user .user_stats .followers_count, .mixed_list .user .user_stats .followers_count {
+  background-image: url("http://www-cdn.jtvnw.net/images/xarth/g/g18_heart-FFFFFF80.png") !important;
+}
+.g18_info-00000080 {
+  background-image: url("http://www-cdn.jtvnw.net/images/xarth/g/g18_info-FFFFFF80.png") !important;
+}
+img[src*="g18_camera-00000080"] {
+  position: relative !important;
+  right: 18px !important;
+  padding-right: 18px !important;
+  margin-right: -14px !important;
+  background-image: url("http://www-cdn.jtvnw.net/images/xarth/g/g18_camera-FFFFFF80.png") !important;
+}
+/* expand old large nav extra menu */
+.extra-menu {
+  height: 136px !important;
+}
+#large_nav .left-col-dropdown {
+  display: none !important;
+}
+
+/*** MISC ***/
+/* remove ads */
+[href*="/directory/kabam"], #nav_advertisement, .fp-banner-ad, #sizzle_strip, .advertisement, .new_advertisement, .js-new-channel-ad, #ad_actions, .ad_leader, .fp_ad, .videoAdUi, body > object[type="application/x-shockwave-flash"] {
+  display: none !important;
+}
+#right_col, .rightcol-content {
+  top: 0px !important;
+}
+/* hide video ads */
+#player[data-screen="advertisement"] object[type="application/x-shockwave-flash"] {
+  visibility: hidden !important;
+}
+.js-advertisement-label {
+  color: red;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+.player-ad-notice {
+  background: #000;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.player-controls-bottom {
+  z-index: 1 !important;
+}
+/* remove spam */
+#nav_games, #small_more, #footer > .links_group, .facebook_connect_contain, .friends-onboarding, .tse-content > .warp__list--sm:nth-child(3), .friend-list > dd > span, .following-games-onboarding, .js-channel-upsell, .cn-tabs__button .pd-0.show, .top-nav__overflow, .has-sc .sc-channels__recommended .sc-item__hover-action {
+  display: none !important;
+}
+/* remove promoted games */
+.promotedGames, .js-directory-featured-game, .promoted-game {
+  display: none !important;
+}
+/* remove video player branding */
+.player[data-branding=true] .player-buttons-right {
+  padding-right: 1em !important;
+}
+.player[data-branding=true] .player-button--twitch {
+  display: none !important;
+}
+/* clean fp bg */
+.takeover #mantle_skin, #carousel_and_background {
+  background-color: #262626 !important;
+  background-image: none !important;
+  height: inherit !important;
+}
+.takeover #mantle_skin {
+  pointer-events: none !important;
+}
+.takeover #mantle_skin * {
+  pointer-events: auto !important;
+}
+.takeover #carousel {
+  background-color: #111 !important;
+}
+#carousel_background img {
+  display: none !important;
+}
+/* move right scrollbar to edge */
+#right_col .tse-scrollbar .drag-handle {
+  right: 0px !important;
+}
+/* style chrome scrollbar */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb, .view-clip__main::-webkit-scrollbar-thumb {
+  background: #555;
+}
+::-webkit-scrollbar-thumb:hover, .view-clip__main:hover::-webkit-scrollbar-thumb {
+  background: #666;
+}
+/* fix scrollbar bugs */
+.ember-list-view, .scrollabel_list, .game-selector {
+  overflow: auto !important;
+}
+#viewers {
+  overflow-y: auto !important;
+}
+#viewers [style^="overflow: auto"] {
+  overflow-x: hidden !important;
+  padding-bottom: 17px !important;
+  position: relative !important;
+}
+.viewer-list-popped-out #viewers [style^="overflow: auto"] {
+  bottom: 0px !important;
+}
+.viewer-list-popped-out [style^="width: 275px"] {
+  width: 240px !important;
+}
+/* fix cursor */
+.js-carousel-nav, .ajax_image, .button--following {
+  cursor: pointer !important;
+}
+/* fix sticky slider */
+.player-slider[show-popup=true] .player-slider__popup-container, .player-slider[show-popup=true] .popup-arrow {
+  display: none !important;
+}
+.player-slider[show-popup=true]:hover .player-slider__popup-container, .player-slider[show-popup=true]:hover .popup-arrow {
+  display: block !important;
+}
+/* fix broken z-index */
+.ember-tether-element {
+  z-index: 4;
+}
+/* disable disabled button */
+[disabled="disabled"], .disabled, .ct-button--disabled:hover {
+  cursor: not-allowed !important;
+}
+button[disabled="disabled"]:hover {
+  background-color: #6441A4 !important;
+}
+/* volume always visible */
+.player-volume__slider-container {
+  overflow: visible;
+  opacity: 1;
+}
+.player-volume {
+  width: 17em;
+}
+.player-volume .player-slider .ui-slider-range {
+  background: #FFF;
+}
+.player-volume__slider-container:hover .ui-slider-range, .player-volume__slider-container:hover .ui-slider-handle {
+  background: #A991D4;
+}
+/* remove recommended channels on closed navbar */
+.drawer.closed .tse-content > .warp__list:nth-child(2) > .ember-view:nth-child(3) {
+  display: none !important;
+}
+/* expand account options on closed navbar */
+.drawer.closed .warp__drawer.toggled {
+  transform: none !important;
+  transition: none !important;
+  max-height: none !important;
+}
+.drawer.closed .warp__toggle .arrow {
+  display: none !important;
+}
+.drawer.closed .warp__anchor {
+  height: 9.4rem !important;
+}
+.drawer.closed .notification-center__icon-container {
+  top: -3.5rem !important;
+  left: -3.4rem !important;
+}
+.drawer.closed .warp__drawer, .drawer.closed .warp__item--anchor, .drawer.closed .warp__item--anchor-beta {
+  background-color: #151515 !important;
+}
+.drawer.closed .warp__drawer {
+  box-shadow: none !important;
+}
+.drawer.closed .warp__toggle {
+  pointer-events: none !important;
+}
+/* display load more on closed social column */
+.has-sc--collapsed .sc-toggle.overflow {
+  display: block;
+  font-size: 0px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABJSURBVHjaY/z//z8DNvD4zkewhKwKPyM2eRYGHODH3+9QFj9WeSYGwmBgNRL2IwczJ16NjI9uf/gPDAi8mrDIk+9UWsTjaDwCAJ4CHeax56gkAAAAAElFTkSuQmCC") no-repeat center;
+}
+/* hd kappa */
+img[alt="Kappa"][src$="emoticons/v1/25/1.0"] {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAQAAAA+LdxbAAADoUlEQVQ4EQXBSUxcBQAA0Pf//GEYhmVYBKGgFrfWptA0qFRtXGIPRk2q8dKDcT0YjTHq1YOJ0ZtL4lFNvGr0otFEY2Ni1VK1i7WFUpYWyjK01ekMAzMwzHzfC2JTAu3anLXdcvrIy9Nvhsn7CueTK6tdR3f/NDPXPjFc2HLZRU0OIQJikWzf2LO5lxYGjii71LWk4IZdx17skRG8f88nhcWtUgCC2JTYdmHfFyfGelb0CRUVdOj3n+MS9qvYYfTd/FvrHkYQm9Yiuv+bH46n2qXtNIaaczLyZtyn3WF5Iw7sq4+9iiA2rW3nt+N/6pWQUJKTMGtS3jbNWsQqJjTY8VP2zW9PExE789a0G6TMCgRKpiT1a5XW64RuWVVFW8PZXU4TMdsxNdIuYca0VasqSrbJKhkwqNkZEzotqKy3r0HE+v3LtzVaNOmCnG06bflXryfdrEFst+N+Fpm/8eS9viHi7OiYbsvmXJGS0S6tx4P2qCoo2+l6S46KJNsgYu26iyrmxOoyEu4UShtR9a9NVSX/ecCMtNsXIWT3RNKMLTW32WNAo7v0yUuipmrTluuNyJmqQURtImteRtaAWw1pkzWobktNUqeqQFmHNDWIGDtZXgj7G2yoecCwNgk58xZsyAjlFaV0ayivFyBi32L59On+hF7PuctVJXO+95suo3r84YySVi3umew5CxGHunt3jDvmBY+Z9b3DVhQ1ykvq87EpLRrssn/cJEQc7/y9+3lLYrGUQZekhDbcap873K1DRuhutdziVYjomHto9o+hRw26KOspjzrhlAaDmjUaldGpSavS+WQdIgbWw88TH7wi7byKqm1G3SHlb0UpgxYN27TgUq0GIpZsfnjw2dTQBXXrVl3WJnRUn/1SuoTmpc3b1AwiKmKZn9uGFmUE1szZtKTZht8NuGLJNbGi9mIShJTFTn31mWVJhFKuanFAlyt+9LWCJqEm1csVENGqWf7XfyJ/2ZNGv6yyXzBsWtG6uh1OVpPnmkHEpMiqvbXqexe+7BSIdTtnSYO8ywhc54L4yN5cHSTe9oUFeTUb4/lbikMsO+Mmj8vIK+swbMUJj7y6d6rJdkQkwYZQ9HShuXgwsKFkwqR1dVUlF+36qPW7U+oeQkQICCRET1x7I/V+j7KiQTdZUrGiYazr9XFVAYgAIBZo/KByOPdpcaTRdpuuWTNZqz7zj6oAEAEABMK/q3cW9ky9c+yAalBaywWvpc9vAuB/hYh5s5kalV8AAAAASUVORK5CYII=") !important;
+}
+
+/*** REMOVE TURBO ***/
+.ember-chat .badges .turbo, .js-turbo-more-colors, #header_turbo_promo, a[href="/settings/turbo"], a[href*="/products/turbo"] {
+  display: none !important;
+}
+
+/*** REMOVE PRIME ***/
+.header-announcement, .front-page-announcement, a[href*="twitch.amazon.com/prime"], a[href="/settings/prime"], .js-offers, .top-nav__prime-anchor {
+  display: none !important;
+}
+a[href^="https://twitch.amazon.com/prime?ref=subscriptionMessage&channel="] {
+  display: inline !important;
+  color: inherit !important;
+  pointer-events: none !important;
+  cursor: text !important;
+}
+
+/*** REMOVE BITS ***/
+.bits-toggle, .bits-card--standard, .bits-card, .bits-footer, .bits-tag--container, [title^="cheer"], [original-title^="cheer"], [alt^="cheer"], .sticky-message--pinned-cheers, .bits-tag--container, a[href*="introducing-cheering"] {
+  display: none !important;
+}
+.ember-chat .chat-messages.bits-tags__offset, .chat-messages[style="top: 30px;"] {
+  top: 0px !important;
+}
+
+/* remove emotes */
+/* .emoticon, .emoticon-selector-toggle {display: none !important;} */
+
+}
+
+@-moz-document domain("truex.com") {
+/* hide bits ad content */
+#ad_container #flashContent, #ad_container #truex_content > *, #ad_stage {
+  visibility: hidden !important;
+}
+#ad_container:before {
+  content: "CLICK" !important;
+  color: red !important;
+  font-weight: 900 !important;
+  position: relative !important;
+  top: 50% !important;
+  left: 50% !important;
+}
+body {
+  background: #000 !important;
+}
+}
+
+@-moz-document domain("googleapis.com") {
+/* disable video ad click */
+.videoAdUi * {
+  pointer-events: none !important;
+}
