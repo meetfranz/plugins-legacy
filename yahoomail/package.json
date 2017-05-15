@@ -1,0 +1,22 @@
+{
+  "name": "yahoomail",
+  "version": "1.0.0",
+  "description": "yahoo mail",
+  "main": "index.js",
+  "author": "VagrantPi <xup6u06m4@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://tw.mail.yahoo.com/",
+    "serviceName": "YahooMail",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
