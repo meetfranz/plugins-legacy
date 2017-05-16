@@ -1,0 +1,23 @@
+{
+  "name": "Yammer",
+  "version": "1.0.0",
+  "description": "Yammer",
+  "main": "index.js",
+  "author": "Sally Young <sally@justafish.co.uk>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.yammer.com/login",
+    "serviceName": "Yammer",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
