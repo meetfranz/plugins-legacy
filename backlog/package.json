@@ -1,0 +1,23 @@
+{
+  "name": "backlog",
+  "version": "1.0.0",
+  "description": "Backlog will make your daily tasks easier and more enjoyable, and lead your team to more enthusiasm for smoother project success.",
+  "main": "index.js",
+  "author": "Nulab Inc. <taichiro.yoshida@nulab-inc.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://{teamID}.backlog.jp/",
+    "serviceName": "Backlog",
+    "message": "Backlog will make your daily tasks easier and more enjoyable, and lead your team to more enthusiasm for smoother project success.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
