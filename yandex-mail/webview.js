@@ -8,6 +8,6 @@ module.exports = (Franz, options) => {
 
   Franz.loop(getMessages);
 
-  Franz.injectCSS(path.join(__dirname, 'css', 'franz.css'));
+  //Franz.injectCSS(path.join(__dirname, 'css', 'franz.css'));
 };
 
