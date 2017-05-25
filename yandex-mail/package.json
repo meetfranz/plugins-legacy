@@ -1,0 +1,23 @@
+{
+  "name": "Яндекс.Почта",
+  "version": "1.0.0",
+  "description": "Яндекс.Почта — бесплатная электронная почта",
+  "main": "index.js",
+  "author": "Impeck <impeck@ya.ru>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://mail.yandex.ru/touch/",
+    "serviceName": "Яндекс.Почта",
+    "message": "Бесплатная электронная почта.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
