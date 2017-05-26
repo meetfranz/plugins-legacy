@@ -1,0 +1,23 @@
+{
+  "name": "@MAIL.RU",
+  "version": "1.0.0",
+  "description": "@MAIL.RU — ведущая бесплатная почта Рунета",
+  "main": "index.js",
+  "author": "Impeck <impeck@ya.ru>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://e.mail.ru/messages/inbox/",
+    "serviceName": "@MAIL.RU",
+    "message": "Ведущая бесплатная почта Рунета.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
