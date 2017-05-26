@@ -2,9 +2,18 @@ const path = require('path');
 
 module.exports = (Franz, options) => {
   const getMessages = () => {
-    const unreadMail = jQuery("span[title*='Inbox'] + div > span").first().text();
+    unreadMail = parseInt(jQuery("span[title*='Inbox'] + div > span").first().text());
+    notifications = parseInt(jQuery("div[class*='o365cs-flexPane-unseenitems']").text().trim());
 
-    Franz.setBadge(unreadMail);
+    badgeCount = 0
+    if (Number.isInteger(notifications)) {
+      badgeCount += notifications
+    }
+    if (Number.isInteger(unreadMail)) {
+      badgeCount += unreadMail
+    }
+
+    Franz.setBadge(badgeCount);
   }
 
   Franz.loop(getMessages);
