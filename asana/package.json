@@ -1,0 +1,22 @@
+{
+  "name": "asana",
+  "version": "1.0.1",
+  "description": "Asana integration",
+  "main": "index.js",
+  "author": "IB Redy Santiawan <goesredy@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.asana.com/",
+    "serviceName": "Asana",
+    "message": "Asana is the easiest way for teams to track their work—and get results.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
