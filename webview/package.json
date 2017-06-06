@@ -1,0 +1,23 @@
+{
+  "name": "webview",
+  "version": "1.0.0",
+  "description": "Generic web view for Franz",
+  "main": "index.js",
+  "author": "Salvatore Cordiano <github@parallel.it>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "WebView",
+    "message": "Add your favourite url as Franz service",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
