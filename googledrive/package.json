@@ -1,0 +1,23 @@
+{
+  "name": "googledrive",
+  "version": "1.0.0",
+  "description": "Google's online storage.",
+  "main": "index.js",
+  "author": "yves-s <yves.schleich@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://drive.google.com/drive/my-drive",
+    "serviceName": "Google Drive",
+    "message": "Google's online storage.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
