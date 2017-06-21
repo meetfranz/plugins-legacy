@@ -1,0 +1,23 @@
+{
+  "name": "The Lounge",
+  "version": "1.0.0",
+  "description": "The Lounge - The self-hosted web IRC client",
+  "main": "index.js",
+  "author": "Jonathan Juursema <thelounge-franz@jonathanj.nl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "The Lounge",
+    "message": "The self-hosted web IRC client",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
