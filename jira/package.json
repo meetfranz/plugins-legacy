@@ -1,0 +1,24 @@
+{
+  "name": "Jira",
+  "version": "0.0.1",
+  "description": "Jira",
+  "main": "index.js",
+  "author": "Matthew Schinckel <matt@schinckel.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.atlassian.net/",
+    "serviceName": "Jira",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasedirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "atlassian.net",
+        "team": "Jira"
+    }
+  }
+}
