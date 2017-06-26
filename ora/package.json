@@ -1,0 +1,23 @@
+{
+  "name": "ora",
+  "version": "1.0.0",
+  "description": "Ora - Teamwork done right!",
+  "main": "index.js",
+  "author": "Johannes Ahrndt <johannes.ahrndt@rostock-ahoi.de>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://ora.pm/projects",
+    "serviceName": "Ora",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
