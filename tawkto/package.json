@@ -10,7 +10,7 @@
     "serviceName": "Tawk.to",
     "message": "",
     "popup": [],
-    "hasNotificationSound": false,
+    "hasNotificationSound": true,
     "hasIndirectMessages": false,
     "hasTeamID": false,
     "customURL": false,
