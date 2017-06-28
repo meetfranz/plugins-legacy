@@ -1,0 +1,23 @@
+{
+  "name": "tawk.to",
+  "version": "1.0.0",
+  "description": "Message Your Visitors in Real Time",
+  "main": "index.js",
+  "author": "Ronaldo Matos Rodrigues <ronaldo@whera.com.br>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://dashboard.tawk.to/login",
+    "serviceName": "Tawk.to",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
