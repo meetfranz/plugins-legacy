@@ -18,6 +18,6 @@
         "webviewOptions": {
             "disablewebsecurity": true
         },
-        "openDevTools": true
+        "openDevTools": false
     }
 }
