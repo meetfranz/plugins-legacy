@@ -1,0 +1,23 @@
+{
+    "name": "Facebook Page",
+    "version": "1.0.0",
+    "description": "Facebook Page Helper",
+    "main": "index.js",
+    "author": "iamcxa <iamcxa@gmail.com>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://business.facebook.com/{teamID}",
+        "serviceName": "Facebook Page",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasIndirectMessages": true,
+        "hasTeamID": true,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": {
+            "disablewebsecurity": true
+        },
+        "openDevTools": false
+    }
+}
