@@ -1,0 +1,23 @@
+{
+  "name": "Yambuu Mail",
+  "version": "1.0.0",
+  "description": "Yambuu Mail – Security and control for Email",
+  "main": "index.js",
+  "author": "Yambuu Corporation <info@yambuu.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.yambuu.com/yambuu-web/main.html#/",
+    "serviceName": "Yambuu Mail",
+    "message": "Secure Email WEB Client - Compatible with Gmail, Office365, Outlook, Exchange, Zimbra, Own Server, etc",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
