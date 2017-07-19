@@ -1,0 +1,23 @@
+{
+  "name": "Hackernews",
+  "version": "1.0.0",
+  "description": "Hackernews feed for Franz",
+  "main": "index.js",
+  "author": "Leandro Ferreira <leandrodsferreira@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://news.ycombinator.com/news",
+    "serviceName": "Hackernews",
+    "message": "Hacker News is a social news website focusing on computer science and entrepreneurship.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
