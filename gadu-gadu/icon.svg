@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#D4130B" x="452" y="2" width="119" height="1020" rx="44.7368421"></rect>
+        <rect id="Rectangle" fill="#D4130B" transform="translate(511.500000, 512.000000) rotate(135.000000) translate(-511.500000, -512.000000) " x="452" y="2" width="119" height="1020" rx="44.7368421"></rect>
+        <rect id="Rectangle" fill="#D4130B" transform="translate(511.500000, 512.000000) rotate(90.000000) translate(-511.500000, -512.000000) " x="452" y="2" width="119" height="1020" rx="44.7368421"></rect>
+        <rect id="Rectangle" fill="#D4130B" transform="translate(511.500000, 512.000000) scale(-1, -1) rotate(45.000000) translate(-511.500000, -512.000000) " x="452" y="2" width="119" height="1020" rx="44.7368421"></rect>
+        <ellipse id="Oval" stroke="#D7191A" stroke-width="77.5438596" fill="#FEDB00" cx="512" cy="512" rx="325" ry="325"></ellipse>
+        <path d="M387,596 C387,596 423.731352,662 511.437965,662 C599.144578,662 635,596.54182 635,596.54182" id="Path-2" stroke="#07090B" stroke-width="32.8070175"></path>
+        <ellipse id="Oval-2" fill="#090B0E" cx="386.5" cy="595" rx="16.5" ry="17"></ellipse>
+        <path d="M651,595.501419 C651,586.166597 643.612698,578.780884 634.5,579.004967 C625.387302,579.22905 618,586.613461 618,595.49851 C618,604.383558 625.387302,611.769272 634.5,611.994961 C643.612698,612.220651 651,604.836241 651,595.501419 Z" id="Oval-2" fill="#090B0E"></path>
+        <circle id="Oval-3" fill="#0B0E10" cx="394.5" cy="421.5" r="34.5"></circle>
+        <circle id="Oval-3" fill="#0B0E10" cx="630.5" cy="421.5" r="34.5"></circle>
+    </g>
+</svg>
