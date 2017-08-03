@@ -1,0 +1,23 @@
+{
+  "name": "inoreader",
+  "version": "1.0.0",
+  "description": "The content reader for power users who want to save time.",
+  "main": "index.js",
+  "author": "Edvaldo da Rosa <fraterblack@bck.com.br>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.inoreader.com/login",
+    "serviceName": "Inoreader",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
