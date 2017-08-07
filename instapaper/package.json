@@ -1,0 +1,23 @@
+{
+  "name": "instapaper",
+  "version": "1.0.0",
+  "description": "instapaper",
+  "main": "index.js",
+  "author": "Theis Nielsen <theissnielsen@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.instapaper.com/user/login",
+    "serviceName": "instapaper",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
