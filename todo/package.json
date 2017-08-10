@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDo plugin for Franz",
+  "main": "index.js",
+  "author": "Matheus Henrique de Souza <mh.matheussouza@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://todo.microsoft.com/auth/redirect",
+    "serviceName": "To-Do",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
