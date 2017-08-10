@@ -1,0 +1,23 @@
+{
+  "name": "medium",
+  "version": "1.0.0",
+  "description": "Medium plugin for Franz",
+  "main": "index.js",
+  "author": "Matheus Henrique de Souza <mh.matheussouza@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://medium.com/",
+    "serviceName": "Medium",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
