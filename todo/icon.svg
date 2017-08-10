@@ -1,0 +1,25 @@
+<svg class="interaction-logo" width="87px" height="71px" viewBox="0 0 87 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+      <linearGradient x1="248.914931%" y1="0%" x2="-27.7723524%" y2="189.710829%" id="linearGradient-1">
+          <stop stop-color="#1C9FFF" offset="0%"></stop>
+          <stop stop-color="#765EE7" offset="100%"></stop>
+      </linearGradient>
+      <linearGradient x1="100%" y1="24.72602%" x2="-41.0744349%" y2="104.890057%" id="linearGradient-2">
+          <stop stop-color="#1C9FFF" offset="0%"></stop>
+          <stop stop-color="#765EE7" offset="100%"></stop>
+      </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g transform="translate(-272.000000, -151.000000)">
+          <g id="Page">
+              <g id="Content" transform="translate(160.000000, 143.000000)">
+                  <g id="Logo" transform="translate(112.000000, 0.000000)">
+                      <rect id="Bounds" x="0" y="0" width="87" height="87"></rect>
+                      <polygon id="square" fill="url(#linearGradient-1)" opacity="0.5" points="0.2578125 43.5 17.5546875 26.203125 34.8515625 43.5 17.5546875 60.796875"></polygon>
+                      <polygon id="dash" fill="url(#linearGradient-2)" points="69.4453125 8.90625 17.5546875 60.796875 34.8515625 78.09375 69.4453125 43.5 86.7421875 26.203125"></polygon>
+                  </g>
+              </g>
+          </g>
+      </g>
+  </g>
+</svg>
