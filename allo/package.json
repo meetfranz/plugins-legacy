@@ -1,0 +1,23 @@
+{
+  "name": "allo",
+  "version": "1.0.0",
+  "description": "allo",
+  "main": "index.js",
+  "author": "Ben Naylor <nayben@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://allo.google.com/web",
+    "serviceName": "Allo",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
