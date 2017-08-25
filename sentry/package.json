@@ -1,0 +1,22 @@
+{
+  "name": "Sentry",
+  "version": "1.0.0",
+  "description": "Sentry",
+  "main": "index.js",
+  "author": "Nikita Chernyi <developer.nikus@gmail.com>",
+  "license": "MIT",
+    "config": {
+    "serviceURL": "",
+    "serviceName": "Sentry",
+    "message": "Open-source error tracking that helps developers monitor and fix crashes in real time.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
