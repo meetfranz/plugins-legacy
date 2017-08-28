@@ -43,6 +43,7 @@ If your service works with custom URLs, just leave this empty.
 }
 ```
 <br />
+
 ```json
 {
     "serviceURL": "https://{teamID}.slack.com"
