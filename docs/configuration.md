@@ -37,31 +37,30 @@ If you want to load a simple URL like `https://www.messenger.com`, you can simpl
 If your service works with custom URLs, just leave this empty.
 <br /><br />
 **Examples**
-```json
-{
-    "serviceURL": "https://www.messenger.com"
-}
-```
-<br />
-```json
-{
-    "serviceURL": "https://{teamID}.slack.com"
-}
-```
+  ```json
+  {
+      "serviceURL": "https://www.messenger.com"
+  }
+  ```
+  ```json
+  {
+      "serviceURL": "https://{teamID}.slack.com"
+  }
+  ```
 * `string` **serviceName**<br/>
 Display name of the service.
 * `array` **popup**<br/>
 Array with regular expressions to open external links in a popup instead of a new browser window. This is used for Slack, Messenger or Yodel calls.
 <br /><br />
 **Examples**
-```json
-  {
-    "popup": [
-      "^https:\/\/([a-zA-Z0-9\\-]*).slack.com\/call\/([^~])*",
-      "^https:\/\/slack-redir.net\/link\\?url=https:\/\/yodel.io\/c\/([^~])*"
-    ]
-  }
-```
+  ```json
+    {
+      "popup": [
+        "^https:\/\/([a-zA-Z0-9\\-]*).slack.com\/call\/([^~])*",
+        "^https:\/\/slack-redir.net\/link\\?url=https:\/\/yodel.io\/c\/([^~])*"
+      ]
+    }
+  ```
 * `boolean` **hasTeamID**<br />
 Is this a team based service? If true, the interface to add the service will require a team identifier. e.g. `[teamID]`.slack.com
 * `boolean` **hasNotificationSound**<br />
@@ -79,13 +78,13 @@ In some cases, e.g. team based servies, you need custom wording in the add/edit 
 * `boolean` **webviewOptions**<br />
 The webview wil be generated with the given webviewOptions. **Only use this if you absolutely know what you are doing.** A list of all available tags can be found at the [electron webview documentation](http://electron.atom.io/docs/api/web-view-tag/#tag-attributes)<br /><br />
 **Examples**
-```json
-{
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    }
-}
-```
+  ```json
+  {
+      "webviewOptions": {
+        "disablewebsecurity": ""
+      }
+  }
+  ```
 * `object` **openDevTools**<br />
 Opens the webviews dev tools. This is very useful when developing an integration but should never be set to true in production.
 
