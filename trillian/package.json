@@ -1,0 +1,23 @@
+{
+    "name": "trillian",
+    "version": "1.0.0",
+    "description": "Trillian Web Client v4",
+    "main": "index.js",
+    "author": "KuchenKerze <kuchen@roflcopt3r.de>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://www.trillian.im/web/4.0/",
+        "serviceName": "Trillian",
+        "message": "Chat with other Trillian users or those on Facebook, Google, AIM, ICQ, XMPP, Twitter, and more.",
+        "popup": [],
+        "hasNotificationSound": false,
+        "hasIndirectMessages": false,
+        "hasTeamID": false,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": {
+            "disablewebsecurity": ""
+        },
+        "openDevTools": false
+    }
+}
