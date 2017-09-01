@@ -1,0 +1,23 @@
+{
+  "name": "OneNote",
+  "version": "0.1.0",
+  "description": "Microsoft OneNote",
+  "main": "index.js",
+  "author": "Eduardo Dimas <edDimas@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.onenote.com/hrd",
+    "serviceName": "Office365 OneNote",
+    "message": "OneNote from Office365",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
