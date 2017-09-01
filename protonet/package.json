@@ -1,0 +1,27 @@
+{
+  "name": "Protonet",
+  "version": "1.0.1",
+  "description": "Protonet",
+  "main": "index.js",
+  "author": "Joschka Schulz",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.protonet.info",
+    "serviceName": "Protonet",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "wording": {
+        "url": "protonet.info",
+        "team": "Protonet"
+    },
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
