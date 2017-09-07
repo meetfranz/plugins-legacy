@@ -10,7 +10,7 @@
     "serviceName": "mightytext",
     "message": "",
     "popup": [],
-    "hasNotificationSound": true,
+    "hasNotificationSound": false,
     "hasIndirectMessages": false,
     "hasTeamID": false,
     "customURL": false,
