@@ -3,15 +3,9 @@ const path = require('path');
 module.exports = (Franz, options) => {
   const getMessages = () => {
     // get unread messages
-    //const updates = document.getElementsByClassName('counter')[0].innerHTML;
 	const updates = document.getElementsByClassName('unread-thread-counter')[0].innerHTML;
 
-    // get conversations in 'My Inbox'
-    //const inbox = document.getElementById('franz').getAttribute('data-inbox');
-
     // set Franz badge
-    // updates => active unread count
-    // inbox => passive unread count
     Franz.setBadge(updates, 0);
   };
 
