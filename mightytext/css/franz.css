@@ -1,0 +1,36 @@
+#goProWrapper {
+	display: none !important;
+}
+
+div.sentText, 
+div.receivedText {
+    border-radius: 10px;
+	box-shadow: #b0b0b0 5px 5px 10px;
+}
+
+div.sentText {
+    background-color: #A0E0A0;
+    border: 1px #008000 solid;
+}
+
+div.sentText:after {
+    border-left-color: #008000 !important;
+}
+
+div.receivedText {
+    background-color: #A0E0F0;
+    border: 1px #60A0B0 solid;
+}
+
+div.receivedText:after {
+    border-right-color: #60A0B0 !important;
+}
+
+span.timestamp-msg,
+.sentFromIcon {
+	color: black !important;
+}
+
+svg.messageAction.material-svg {
+	fill: black !important;
+}
