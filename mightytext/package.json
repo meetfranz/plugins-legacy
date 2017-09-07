@@ -1,0 +1,23 @@
+{
+  "name": "mightytext",
+  "version": "1.0.0",
+  "description": "Support for mightytext SMS service -- Attention, your mobile provider will charge you for SMS messages as you would have sent them from your phone!",
+  "main": "index.js",
+  "author": "Jan Kischel <datlicht@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://mightytext.net/web",
+    "serviceName": "mightytext",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
