@@ -1,0 +1,23 @@
+{
+  "name": "aruba",
+  "version": "0.0.1",
+  "description": "Aruba Webmail",
+  "main": "index.js",
+  "author": "Daniele Buccilli <d.buccilli@keplerotech.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://webmailbeta.aruba.it/",
+    "serviceName": "Aruba Webail",
+    "message": "The Aruba webmail service",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
