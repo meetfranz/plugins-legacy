@@ -1,0 +1,23 @@
+{
+  "name": "YouTube",
+  "version": "1.0.0",
+  "description": "YouTube SmartTV Edition",
+  "main": "index.js",
+  "author": "Koray K. <koraym@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://youtube.com/tv",
+    "serviceName": "YouTube",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MeisterTask",
+  "version": "1.0.0",
+  "description": "MeisterTask WEB",
+  "main": "index.js",
+  "author": "Koray K. <koraym@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.meistertask.com/app",
+    "serviceName": "MeisterTask",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
