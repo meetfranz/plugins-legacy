@@ -1,0 +1,23 @@
+{
+  "name": "Агент Mail.Ru",
+  "version": "1.0.0",
+  "description": "Агент Mail.Ru для веб-браузеров – общение с любого компьютера, бесплатные SMS, звонки на телефоны",
+  "main": "index.js",
+  "author": "Impeck <impeck@ya.ru>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://webagent.mail.ru/webim/agent/popup.html",
+    "serviceName": "Агент Mail.Ru",
+    "message": "Веб-Агент – облегченная версия Агента специально для веб-браузеров.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

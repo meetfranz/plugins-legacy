@@ -1,0 +1,23 @@
+{
+  "name": "ICQ",
+  "version": "1.0.0",
+  "description": "Simple way to communicate and nothing extra. New design, free sound and video calls, group chats and much more!",
+  "main": "index.js",
+  "author": "Impeck <impeck@ya.ru>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.icq.com",
+    "serviceName": "ICQ",
+    "message": "Simple way to communicate and nothing extra.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
