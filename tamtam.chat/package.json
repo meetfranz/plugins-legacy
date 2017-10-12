@@ -1,0 +1,23 @@
+{
+  "name": "ТамТам",
+  "version": "1.0.0",
+  "description": "ТамТам — бесплатный мессенджер для комфортного и повседневного общения.",
+  "main": "index.js",
+  "author": "Impeck <impeck@ya.ru>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://tamtam.chat",
+    "serviceName": "ТамТам",
+    "message": "ТамТам — бесплатный мессенджер для комфортного и повседневного общения!",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
