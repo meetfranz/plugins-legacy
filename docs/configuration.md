@@ -42,16 +42,19 @@ If your service works with custom URLs, just leave this empty.
     "serviceURL": "https://www.messenger.com"
 }
 ```
-<br />
+
 ```json
 {
     "serviceURL": "https://{teamID}.slack.com"
 }
 ```
+
 * `string` **serviceName**<br/>
 Display name of the service.
+
 * `array` **popup**<br/>
 Array with regular expressions to open external links in a popup instead of a new browser window. This is used for Slack, Messenger or Yodel calls.
+
 <br /><br />
 **Examples**
 ```json
