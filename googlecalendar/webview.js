@@ -13,7 +13,7 @@ module.exports = (Franz, options) => {
   function hideModal () {
     hide(modal);
     modal.querySelector('p').innerHTML = '';
-    updates -= 1;
+    updates = updates > 0 ? (updates - 1) : updates;
   }
 
   // Replace window.alert to hide alerts in Franz
