@@ -16,6 +16,9 @@ module.exports = (Franz, options) => {
     // Franz.setBadge(updates, inbox);
   };
 
+  // inject franz.css stylesheet
+  Franz.injectCSS(path.join(__dirname, 'service.css'));
+
   // check for new messages every second and update Franz badge
   Franz.loop(getMessages);
 };
