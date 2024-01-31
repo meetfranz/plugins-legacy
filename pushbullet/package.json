@@ -1,0 +1,23 @@
+{
+  "name": "pushbullet",
+  "version": "1.0.0",
+  "description": "pushbullet",
+  "main": "index.js",
+  "author": "Janusz Ladecki <szunaj13pl@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://pushbullet.com",
+    "serviceName": "Pushbullet",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
